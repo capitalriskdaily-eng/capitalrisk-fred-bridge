@@ -1,0 +1,38 @@
+name: CapitalRisk FRED Bridge
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "37 14 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-fred:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch FRED
+        run: python3 fetch_fred.py
+
+      - name: Save fresh cache
+        run: |
+          git config user.name "CapitalRisk FRED Robot"
+          git config user.email "capitalriskdaily-eng@users.noreply.github.com"
+
+          git add fred-cache.json
+
+          git commit \
+            -m "Update FRED cache $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          git push
