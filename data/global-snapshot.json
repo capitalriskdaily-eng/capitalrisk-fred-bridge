@@ -1,0 +1,2756 @@
+{
+  "status": "ok",
+  "dataset": "CapitalRisk Global Snapshot",
+  "version": 1,
+  "lastSuccessfulRun": "2026-08-31T10:21:12.065Z",
+  "countries": [
+    {
+      "name": "United States",
+      "flag": "🇺🇸",
+      "region": "Americas",
+      "rate": 3.625,
+      "inflation": 3.364825,
+      "gdp": 2.097671547,
+      "unemployment": 4.2,
+      "debt": 125.8,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "OECD",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-31",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://www.oecd.org/en/data/insights/statistical-releases/2026/08/consumer-prices-oecd-updated-4-august-2026.html"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "OECD",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/8/GDP-Growth-Q2-2026.pdf",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:11.977Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Euro Area",
+      "flag": "🇪🇺",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.9,
+      "gdp": 1,
+      "unemployment": 6.3,
+      "debt": 87.8,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-31072026-ap"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-31",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:05.432Z",
+            "allowSamePeriodRevision": true
+          }
+        }
+      }
+    },
+    {
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "region": "Europe",
+      "rate": 3.75,
+      "inflation": 2.805755,
+      "gdp": 1.174400872,
+      "unemployment": 4.9,
+      "debt": 103.6,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "OECD",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/8/GDP-Growth-Q2-2026.pdf",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:11.977Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026 Apr-Jun",
+          "institution": "Office for National Statistics",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted LFS estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/employmentintheuk/august2026"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "region": "Asia-Pacific",
+      "rate": 1,
+      "inflation": 1.7,
+      "gdp": 0.54976599,
+      "unemployment": 2.4,
+      "debt": 204.4,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "OECD",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://www.oecd.org/en/data/insights/statistical-releases/2026/08/consumer-prices-oecd-updated-4-august-2026.html"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "OECD",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/8/GDP-Growth-Q2-2026.pdf",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:11.977Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-07",
+          "institution": "Statistics Bureau of Japan",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-31",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.stat.go.jp/english/data/roudou/result.html"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "China",
+      "flag": "🇨🇳",
+      "region": "Asia-Pacific",
+      "rate": 3,
+      "inflation": 0.5,
+      "gdp": 4.3,
+      "unemployment": 5.2,
+      "debt": 106.9,
+      "meta": {
+        "rate": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "OECD",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-31",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://www.oecd.org/en/data/insights/statistical-releases/2026/08/consumer-prices-oecd-updated-4-august-2026.html"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "National Bureau of Statistics of China",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Official year-on-year growth",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/202607/t20260715_1964120.html"
+        },
+        "unemployment": {
+          "period": "2026-07",
+          "institution": "National Bureau of Statistics of China",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Urban surveyed unemployment rate",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/202608/t20260817_1965057.html"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "region": "Americas",
+      "rate": 2.25,
+      "inflation": 3.032141,
+      "gdp": 0.98999389,
+      "unemployment": 6.4,
+      "debt": 110.7,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "OECD",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/8/GDP-Growth-Q2-2026.pdf",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:11.977Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-07",
+          "institution": "OECD",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Preliminary estimate",
+          "verified": "2026-08-31",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.oecd.org/en/data/insights/statistical-releases/2026/06/unemployment-rates-updated-june-2026.html"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "region": "Asia-Pacific",
+      "rate": 4.35,
+      "inflation": 3.941849,
+      "gdp": 2.5,
+      "unemployment": 4.5,
+      "debt": 50.6,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q1",
+          "institution": "Australian Bureau of Statistics",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Growth since March 2025",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release"
+        },
+        "unemployment": {
+          "period": "2026-07",
+          "institution": "Australian Bureau of Statistics",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.abs.gov.au/statistics/economy/key-indicators"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "region": "Europe",
+      "rate": 0,
+      "inflation": 0.354234,
+      "gdp": 2.3,
+      "unemployment": 3,
+      "debt": 38.5,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "region": "Asia-Pacific",
+      "rate": 2.5,
+      "inflation": 4.058193,
+      "gdp": 2.1,
+      "unemployment": 5.6,
+      "debt": 56.7,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-Q2",
+          "institution": "Stats NZ",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted official unemployment rate",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.stats.govt.nz/indicators/unemployment-rate/"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "region": "Europe",
+      "rate": 4.25,
+      "inflation": 2.97619,
+      "gdp": 1.5,
+      "unemployment": 4.7,
+      "debt": 42.9,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "region": "Europe",
+      "rate": 1.75,
+      "inflation": 0.17607,
+      "gdp": 3.2,
+      "unemployment": 8.7,
+      "debt": 36.7,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:02.815Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "region": "Europe",
+      "rate": 1.85,
+      "inflation": 1.729762,
+      "gdp": 2,
+      "unemployment": 6.5,
+      "debt": 27.4,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "region": "Americas",
+      "rate": 14.25,
+      "inflation": 4.4430246091,
+      "gdp": 1.8,
+      "unemployment": 5.4,
+      "debt": 96.5,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q1",
+          "institution": "IBGE",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Compared with the same quarter of 2025",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://agenciadenoticias.ibge.gov.br/en/agencia-news/2184-news-agency/news/46948-pib-avanca-1-1-no-primeiro-trimestre-e-chega-a-r-3-3-trilhoes-2"
+        },
+        "unemployment": {
+          "period": "2026-Q2",
+          "institution": "IBGE",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "National continuous household survey",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.ibge.gov.br/en/indicators"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "India",
+      "flag": "🇮🇳",
+      "region": "Asia-Pacific",
+      "rate": 5.25,
+      "inflation": 4.38006,
+      "gdp": 6.5,
+      "unemployment": 5.1,
+      "debt": 83.4,
+      "meta": {
+        "rate": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-07",
+          "institution": "Ministry of Statistics and Programme Implementation",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Current weekly status; age 15+",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1786961114962_47b9343c-f726-4581-8440-c2f119a86ab6_Monthly_Press_note_July_2026.pdf"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "region": "Asia-Pacific",
+      "rate": 2.75,
+      "inflation": 2.789221,
+      "gdp": 3.7,
+      "unemployment": 2.8,
+      "debt": 54.4,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Bank of Korea",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Advance estimate; year-on-year",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=11063106&programType=newsDataEng&relate=Y"
+        },
+        "unemployment": {
+          "period": "2026-07",
+          "institution": "Ministry of Data and Statistics (KOSTAT)",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.kostat.go.kr/imfDsbbArcPage.es?mid=a20302010000&page_code=EIDN001"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "region": "Americas",
+      "rate": 6.5,
+      "inflation": 3.11763,
+      "gdp": 1.6,
+      "unemployment": 2.8,
+      "debt": 62.7,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "INEGI",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Official national headline",
+          "verified": "2026-08-31",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://en.www.inegi.org.mx/"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "region": "Europe",
+      "rate": 14,
+      "inflation": 5.971198,
+      "gdp": 1.1,
+      "unemployment": 2.4,
+      "debt": 19.1,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "region": "Other",
+      "rate": 7,
+      "inflation": 4.980491,
+      "gdp": 1,
+      "unemployment": 33.6,
+      "debt": 78.9,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-Q2",
+          "institution": "Statistics South Africa",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Quarterly Labour Force Survey",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.statssa.gov.za/?p=19804"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Turkey",
+      "flag": "🇹🇷",
+      "region": "Europe",
+      "rate": 37,
+      "inflation": 31.7540967906,
+      "gdp": 2.5,
+      "unemployment": 7.6,
+      "debt": 25.5,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q1",
+          "institution": "Turkish Statistical Institute",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Official data portal headline",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://veriportali.tuik.gov.tr/en"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Turkish Statistical Institute",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Official data portal headline",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://veriportali.tuik.gov.tr/en"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "region": "Other",
+      "rate": 4.25,
+      "inflation": 1.831325,
+      "gdp": -4.8,
+      "unemployment": 6.4,
+      "debt": 32.1,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "General Authority for Statistics",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Compared with corresponding quarter of 2025",
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://stats.gov.sa/en/"
+        },
+        "unemployment": {
+          "period": "2026-Q1",
+          "institution": "General Authority for Statistics",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Saudi unemployment rate",
+          "verified": "2026-08-31",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://stats.gov.sa/en/"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Indonesia",
+      "flag": "🇮🇩",
+      "region": "Asia-Pacific",
+      "rate": 5.75,
+      "inflation": 2.882136,
+      "gdp": 5,
+      "unemployment": 4.9,
+      "debt": 41.5,
+      "meta": {
+        "rate": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "region": "Americas",
+      "rate": null,
+      "inflation": 33.961758038,
+      "gdp": 2.3,
+      "unemployment": 7.8,
+      "debt": 70.4,
+      "meta": {
+        "rate": {
+          "period": null,
+          "institution": null,
+          "status": "NOT APPLICABLE / REVIEW",
+          "notes": "No single policy rate: BCRA currently operates through monetary aggregates and liquidity management.",
+          "verified": null,
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": null
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q1",
+          "institution": "Central Bank of Argentina",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Official IPOM summary of national accounts",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.bcra.gob.ar/en/news/press-conference-on-the-monetary-policy-report-ipom-second-quarter-2026/"
+        },
+        "unemployment": {
+          "period": "2026-Q1",
+          "institution": "INDEC",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Percent of labour force",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://sdds.indec.gob.ar/nsdp.htm"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "region": "Americas",
+      "rate": 4.5,
+      "inflation": 3.5260541,
+      "gdp": 2.4,
+      "unemployment": 9.5,
+      "debt": 42.5,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026 May-Jul",
+          "institution": "National Statistics Institute of Chile",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "National headline rate",
+          "verified": "2026-08-31",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.ine.gob.cl/"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "region": "Americas",
+      "rate": 12,
+      "inflation": 6.0263,
+      "gdp": 3.5,
+      "unemployment": 8,
+      "debt": 60.9,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "DANE",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Official year-on-year quarterly release",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.dane.gov.co/index.php/en/statistics-by-topic-1/national-accounts"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "DANE",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "National total",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://www.dane.gov.co/index.php/en/statistics-by-topic-1/labor-market/empleo-y-desempleo"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.782324,
+      "gdp": 1,
+      "unemployment": 3.9,
+      "debt": 64.6,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:02.815Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "France",
+      "flag": "🇫🇷",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.118349,
+      "gdp": 0.5,
+      "unemployment": 8.2,
+      "debt": 118.4,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:02.815Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.730819,
+      "gdp": 1,
+      "unemployment": 5.7,
+      "debt": 138.4,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-04",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 3.583072,
+      "gdp": 2.7,
+      "unemployment": 10.1,
+      "debt": 98.2,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.914839,
+      "gdp": 1.5,
+      "unemployment": 3.8,
+      "debt": 44.1,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:02.815Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 3.561363,
+      "gdp": 0.5,
+      "unemployment": 6.3,
+      "debt": 109.2,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.791625,
+      "gdp": 0.8,
+      "unemployment": 5.7,
+      "debt": 82.1,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 3.035928,
+      "gdp": 2.5,
+      "unemployment": 5.6,
+      "debt": 85.6,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.134246,
+      "gdp": 1.6,
+      "unemployment": 10.5,
+      "debt": 93.1,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:02.815Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Greece",
+      "flag": "🇬🇷",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 4.38647,
+      "gdp": 1.8,
+      "unemployment": 8,
+      "debt": 136.9,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Ireland",
+      "flag": "🇮🇪",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 3.394762,
+      "gdp": -5.6,
+      "unemployment": 5,
+      "debt": 31.6,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate; interpret cautiously due to multinational-sector volatility",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Slovakia",
+      "flag": "🇸🇰",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 3.477041,
+      "gdp": 0.8,
+      "unemployment": 5.8,
+      "debt": 63,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Slovenia",
+      "flag": "🇸🇮",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.944664,
+      "gdp": 4.8,
+      "unemployment": 3.8,
+      "debt": 65.2,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Luxembourg",
+      "flag": "🇱🇺",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.214651,
+      "gdp": 1.6,
+      "unemployment": 7.1,
+      "debt": 28,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Estonia",
+      "flag": "🇪🇪",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.18471,
+      "gdp": 2.1,
+      "unemployment": 6.6,
+      "debt": 27.8,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Latvia",
+      "flag": "🇱🇻",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.587065,
+      "gdp": 2.2,
+      "unemployment": 6.8,
+      "debt": 47.4,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Lithuania",
+      "flag": "🇱🇹",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 5.929866,
+      "gdp": 3.8,
+      "unemployment": 6.9,
+      "debt": 45.1,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Croatia",
+      "flag": "🇭🇷",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 4.504505,
+      "gdp": 2.6,
+      "unemployment": 4.3,
+      "debt": 56.5,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Cyprus",
+      "flag": "🇨🇾",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.931847,
+      "gdp": 3.3,
+      "unemployment": 3,
+      "debt": 50.9,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Malta",
+      "flag": "🇲🇹",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 2.488743,
+      "gdp": 3.7,
+      "unemployment": 3.5,
+      "debt": 47.3,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-06",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Bulgaria",
+      "flag": "🇧🇬",
+      "region": "Eurozone",
+      "rate": 2.25,
+      "inflation": 4.52381,
+      "gdp": 2.7,
+      "unemployment": 3,
+      "debt": 28.2,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "region": "Europe",
+      "rate": 3.75,
+      "inflation": 2.957694,
+      "gdp": 3.7,
+      "unemployment": 3.1,
+      "debt": 65.7,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-27",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    },
+    {
+      "name": "Czechia",
+      "flag": "🇨🇿",
+      "region": "Europe",
+      "rate": 3.75,
+      "inflation": 1.689877,
+      "gdp": 1.9,
+      "unemployment": 3.3,
+      "debt": 46.4,
+      "meta": {
+        "rate": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Current central-bank policy rate",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "inflation": {
+          "period": "2026-07",
+          "institution": "Bank for International Settlements",
+          "status": "OFFICIAL ACTUAL",
+          "notes": null,
+          "verified": "2026-08-27",
+          "definition": "Latest headline consumer-price inflation, year over year",
+          "sourceUrl": "https://data.bis.org/bulkdownload"
+        },
+        "gdp": {
+          "period": "2026-Q2",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Flash estimate",
+          "verified": "2026-08-31",
+          "definition": "Latest real GDP growth, year over year",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-08-31T10:21:02.815Z",
+            "allowSamePeriodRevision": true
+          }
+        },
+        "unemployment": {
+          "period": "2026-06",
+          "institution": "Eurostat",
+          "status": "OFFICIAL ACTUAL",
+          "notes": "Seasonally adjusted",
+          "verified": "2026-08-27",
+          "definition": "Latest national unemployment rate",
+          "sourceUrl": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Unemployment_statistics"
+        },
+        "debt": {
+          "period": "2026 WEO estimate",
+          "institution": "IMF World Economic Outlook",
+          "status": "OFFICIAL ESTIMATE",
+          "notes": "Annual WEO estimate used until a latest national release is verified",
+          "verified": "2026-08-27",
+          "definition": "General-government gross debt as percent of GDP",
+          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+        }
+      }
+    }
+  ],
+  "publishedAt": "2026-08-31T10:21:12.065Z",
+  "refreshStatus": "INITIAL VERIFIED EXPORT — standardized refresh only; national values preserved from live verified state",
+  "refreshFinished": "2026-08-31T10:21:12.065Z"
+}

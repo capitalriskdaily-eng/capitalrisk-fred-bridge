@@ -1,0 +1,48 @@
+name: CapitalRisk Global Snapshot Friday
+
+on:
+  schedule:
+    # Friday, 06:37 UTC. Deliberately away from top-of-hour congestion and
+    # from the afternoon CapitalRisk jobs. (~09:37 Latvia summer / 08:37 winter.)
+    - cron: '37 6 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: capitalrisk-global-snapshot-friday
+  cancel-in-progress: false
+
+jobs:
+  refresh-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Refresh official sources and build canonical snapshot
+        env:
+          SNAPSHOT_WORKER_URL: https://capitalrisk-global-snapshot.capitalriskdaily.workers.dev
+          SNAPSHOT_ADMIN_TOKEN: ${{ secrets.GLOBAL_SNAPSHOT_ADMIN_TOKEN }}
+        run: node scripts/global-snapshot-publish.mjs
+
+      - name: Commit verified snapshot when changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/global-snapshot.json data/global-snapshot-diagnostics.json; then
+            echo "No published-data change."
+            exit 0
+          fi
+          git config user.name "CapitalRisk Snapshot Bot"
+          git config user.email "capitalrisk-snapshot-bot@users.noreply.github.com"
+          git add data/global-snapshot.json data/global-snapshot-diagnostics.json
+          git commit -m "data: refresh Global Snapshot"
+          git push
