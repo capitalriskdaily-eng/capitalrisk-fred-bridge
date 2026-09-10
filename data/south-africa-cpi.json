@@ -1,0 +1,13 @@
+{
+  "schema": "capitalrisk.south-africa-cpi.bridge.v1",
+  "country": "South Africa",
+  "metric": "inflation",
+  "value": 4.3,
+  "period": "2026-07",
+  "institution": "Statistics South Africa",
+  "status": "OFFICIAL ACTUAL",
+  "definition": "Headline CPI for all urban areas, year-on-year percent",
+  "sourceUrl": "https://www.statssa.gov.za/publications/P0141/P0141July2026.pdf",
+  "transport": "GitHub Actions bridge",
+  "verifiedAt": "2026-09-10T00:00:00Z"
+}
