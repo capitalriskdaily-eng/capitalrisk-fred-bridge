@@ -1,19 +1,8 @@
 {
-  "publishedAt": "2026-09-11T11:49:35.780Z",
-  "refreshFinished": "2026-09-11T11:49:35.221Z",
+  "publishedAt": "2026-09-18T16:30:31.472Z",
+  "refreshFinished": "2026-09-18T16:30:30.842Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
-  "updated": [
-    {
-      "country": "China",
-      "metric": "inflation",
-      "from": 0.5,
-      "to": 0.8,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "OECD",
-      "verification": "official-api"
-    }
-  ],
+  "updated": [],
   "revisions": [
     {
       "country": "Saudi Arabia",
@@ -26,7 +15,7 @@
       "verification": "deterministic-direct"
     }
   ],
-  "unchangedCount": 307,
+  "unchangedCount": 308,
   "sourceErrors": [
     {
       "source": "custom:nz-jobs",
@@ -39,10 +28,6 @@
     {
       "source": "custom:korea-gdp",
       "error": "Korea BOK: GDP release link not found"
-    },
-    {
-      "source": "custom:korea-jobs",
-      "error": "Browser json failed: [{\"code\":6002,\"message\":\"A timeout was reached. Check gotoOptions/waitForSelector/waitForTimeout/actionTimeout options.\",\"detail\":\"Navigation timeout of 45000 ms exceeded\"}]"
     },
     {
       "source": "custom:mexico-inegi",
@@ -66,7 +51,11 @@
       "source": "custom:china-nbs",
       "country": "China",
       "metric": "gdp",
-      "reason": "missing-value-period-or-evidence"
+      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
+      "value": 5.2,
+      "period": "2026-08",
+      "pageHas": false,
+      "evidenceHas": false
     },
     {
       "source": "custom:china-nbs",
@@ -79,10 +68,20 @@
       "country": "India",
       "metric": "unemployment",
       "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 5.1,
-      "period": "2026-07",
+      "value": 5,
+      "period": "2026-08",
       "pageHas": false,
-      "evidenceHas": true
+      "evidenceHas": false
+    },
+    {
+      "source": "custom:korea-jobs",
+      "country": "South Korea",
+      "metric": "unemployment",
+      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
+      "value": 2.7,
+      "period": "2026-08",
+      "pageHas": false,
+      "evidenceHas": false
     },
     {
       "source": "custom:argentina-gdp",
@@ -848,7 +847,7 @@
       "source": "OECD",
       "ok": true,
       "candidates": 114,
-      "applied": 1
+      "applied": 0
     },
     {
       "source": "custom:latvia-cpi",
@@ -894,6 +893,12 @@
     },
     {
       "source": "custom:india-plfs",
+      "ok": true,
+      "candidates": 0,
+      "mode": "browser+official-page-verification"
+    },
+    {
+      "source": "custom:korea-jobs",
       "ok": true,
       "candidates": 0,
       "mode": "browser+official-page-verification"
