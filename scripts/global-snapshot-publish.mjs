@@ -1,3 +1,4 @@
+import https from 'node:https';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -56,15 +57,53 @@ function validateSnapshot(snapshot){
   if(fields!==235) throw new Error(`Expected 235 fields, got ${fields}`);
 }
 
-const controller=new AbortController();
-const timer=setTimeout(()=>controller.abort(), 20*60*1000);
-let response;
-try{
-  response=await fetch(`${BASE}/admin/refresh-export?custom=1`,{
-    method:'POST',
-    headers:{authorization:`Bearer ${TOKEN}`,accept:'application/json'},
-    signal:controller.signal
+function postWithoutUndiciHeaderTimeout(url,{headers={},signal}={}){
+  return new Promise((resolve,reject)=>{
+    const req=https.request(url,{
+      method:'POST',
+      headers,
+      signal
+    },res=>{
+      const chunks=[];
+
+      res.on('data',chunk=>chunks.push(chunk));
+
+      res.on('end',()=>{
+        const body=Buffer.concat(chunks).toString('utf8');
+
+        resolve({
+          ok:res.statusCode>=200 && res.statusCode<300,
+          status:res.statusCode,
+          text:async()=>body,
+          json:async()=>JSON.parse(body)
+        });
+      });
+    });
+
+    req.on('error',reject);
+    req.end();
   });
+}
+
+const controller=new AbortController();
+const timer=setTimeout(
+  ()=>controller.abort(new Error('Global Snapshot Worker exceeded 20-minute limit')),
+  20*60*1000
+);
+
+let response;
+
+try{
+  response=await postWithoutUndiciHeaderTimeout(
+    `${BASE}/admin/refresh-export?custom=1`,
+    {
+      headers:{
+        authorization:`Bearer ${TOKEN}`,
+        accept:'application/json'
+      },
+      signal:controller.signal
+    }
+  );
 } finally {
   clearTimeout(timer);
 }
