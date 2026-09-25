@@ -1,9 +1,29 @@
 {
-  "publishedAt": "2026-09-18T16:30:31.472Z",
-  "refreshFinished": "2026-09-18T16:30:30.842Z",
+  "publishedAt": "2026-09-25T12:11:37.057Z",
+  "refreshFinished": "2026-09-25T12:11:36.430Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
   "updated": [],
   "revisions": [
+    {
+      "country": "Spain",
+      "metric": "gdp",
+      "from": 2.7,
+      "to": 2.6,
+      "fromPeriod": "2026-Q2",
+      "toPeriod": "2026-Q2",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Slovenia",
+      "metric": "gdp",
+      "from": 4.8,
+      "to": 4.9,
+      "fromPeriod": "2026-Q2",
+      "toPeriod": "2026-Q2",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
     {
       "country": "Saudi Arabia",
       "metric": "gdp",
@@ -15,8 +35,12 @@
       "verification": "deterministic-direct"
     }
   ],
-  "unchangedCount": 308,
+  "unchangedCount": 305,
   "sourceErrors": [
+    {
+      "source": "custom:australia-jobs",
+      "error": "Australia jobs: reference period or unemployment not found"
+    },
     {
       "source": "custom:nz-jobs",
       "error": "New Zealand: unemployment observation not found"
@@ -51,11 +75,7 @@
       "source": "custom:china-nbs",
       "country": "China",
       "metric": "gdp",
-      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 5.2,
-      "period": "2026-08",
-      "pageHas": false,
-      "evidenceHas": false
+      "reason": "missing-value-period-or-evidence"
     },
     {
       "source": "custom:china-nbs",
@@ -71,7 +91,7 @@
       "value": 5,
       "period": "2026-08",
       "pageHas": false,
-      "evidenceHas": false
+      "evidenceHas": true
     },
     {
       "source": "custom:korea-jobs",
@@ -89,7 +109,7 @@
       "metric": "gdp",
       "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
       "value": 2.3,
-      "period": "2026-Q1",
+      "period": "2026-Q2",
       "pageHas": false,
       "evidenceHas": false
     }
@@ -835,7 +855,7 @@
       "source": "Eurostat",
       "ok": true,
       "candidates": 55,
-      "applied": 0
+      "applied": 2
     },
     {
       "source": "IMF WEO",
@@ -875,12 +895,6 @@
     },
     {
       "source": "custom:australia-gdp",
-      "ok": true,
-      "candidates": 1,
-      "mode": "deterministic-direct"
-    },
-    {
-      "source": "custom:australia-jobs",
       "ok": true,
       "candidates": 1,
       "mode": "deterministic-direct"
