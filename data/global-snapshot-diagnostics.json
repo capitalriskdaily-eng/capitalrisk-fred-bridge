@@ -1,24 +1,235 @@
 {
-  "publishedAt": "2026-09-25T12:11:37.057Z",
-  "refreshFinished": "2026-09-25T12:11:36.430Z",
+  "publishedAt": "2026-10-02T13:09:12.341Z",
+  "refreshFinished": "2026-10-02T13:09:11.577Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
-  "updated": [],
-  "revisions": [
+  "updated": [
+    {
+      "country": "Euro Area",
+      "metric": "inflation",
+      "from": 3.2,
+      "to": 3.8,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Germany",
+      "metric": "inflation",
+      "from": 2.9,
+      "to": 3.3,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "France",
+      "metric": "inflation",
+      "from": 2.6,
+      "to": 3.4,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Italy",
+      "metric": "inflation",
+      "from": 3.2,
+      "to": 4.1,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
     {
       "country": "Spain",
-      "metric": "gdp",
-      "from": 2.7,
+      "metric": "inflation",
+      "from": 4.6,
+      "to": 5,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Netherlands",
+      "metric": "inflation",
+      "from": 2.8,
+      "to": 3,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Belgium",
+      "metric": "inflation",
+      "from": 4.2,
+      "to": 4.6,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Austria",
+      "metric": "inflation",
+      "from": 2.9,
+      "to": 3.5,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Portugal",
+      "metric": "inflation",
+      "from": 3.6,
+      "to": 3.6,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Finland",
+      "metric": "inflation",
+      "from": 2.4,
       "to": 2.6,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q2",
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Greece",
+      "metric": "inflation",
+      "from": 3.7,
+      "to": 5.1,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Ireland",
+      "metric": "inflation",
+      "from": 3.4,
+      "to": 3.8,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Slovakia",
+      "metric": "inflation",
+      "from": 3.1,
+      "to": 3.1,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
       "source": "Eurostat",
       "verification": "official-api"
     },
     {
       "country": "Slovenia",
+      "metric": "inflation",
+      "from": 3.4,
+      "to": 3.7,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Luxembourg",
+      "metric": "inflation",
+      "from": 4,
+      "to": 5.2,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Estonia",
+      "metric": "inflation",
+      "from": 1.3,
+      "to": 3,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Latvia",
+      "metric": "inflation",
+      "from": 3.2,
+      "to": 2.9,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Lithuania",
+      "metric": "inflation",
+      "from": 5.6,
+      "to": 6.1,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Croatia",
+      "metric": "inflation",
+      "from": 3.7,
+      "to": 4.3,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Cyprus",
+      "metric": "inflation",
+      "from": 5.2,
+      "to": 5.2,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Malta",
+      "metric": "inflation",
+      "from": 2,
+      "to": 2.4,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Bulgaria",
+      "metric": "inflation",
+      "from": 5,
+      "to": 5.6,
+      "fromPeriod": "2026-08",
+      "toPeriod": "2026-09",
+      "source": "Eurostat",
+      "verification": "official-api"
+    }
+  ],
+  "revisions": [
+    {
+      "country": "Denmark",
       "metric": "gdp",
-      "from": 4.8,
-      "to": 4.9,
+      "from": 4.6,
+      "to": 5.7,
       "fromPeriod": "2026-Q2",
       "toPeriod": "2026-Q2",
       "source": "Eurostat",
@@ -35,8 +246,12 @@
       "verification": "deterministic-direct"
     }
   ],
-  "unchangedCount": 305,
+  "unchangedCount": 282,
   "sourceErrors": [
+    {
+      "source": "custom:japan-stat",
+      "error": "Japan: official Labour Force Survey latest period not found"
+    },
     {
       "source": "custom:australia-jobs",
       "error": "Australia jobs: reference period or unemployment not found"
@@ -68,6 +283,10 @@
     {
       "source": "custom:argentina-jobs",
       "error": "Argentina INDEC: unemployment observation not found"
+    },
+    {
+      "source": "custom:chile-jobs",
+      "error": "520 <none> @ https://www.ine.gob.cl/?crgs=1790946545784"
     }
   ],
   "verificationFailures": [
@@ -75,13 +294,13 @@
       "source": "custom:china-nbs",
       "country": "China",
       "metric": "gdp",
-      "reason": "missing-value-period-or-evidence"
+      "reason": "non-official-source-url"
     },
     {
       "source": "custom:china-nbs",
       "country": "China",
       "metric": "unemployment",
-      "reason": "missing-value-period-or-evidence"
+      "reason": "non-official-source-url"
     },
     {
       "source": "custom:india-plfs",
@@ -108,7 +327,7 @@
       "country": "Argentina",
       "metric": "gdp",
       "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 2.3,
+      "value": 1.449031272,
       "period": "2026-Q2",
       "pageHas": false,
       "evidenceHas": false
@@ -831,7 +1050,7 @@
       "country": "United Kingdom",
       "metric": "unemployment",
       "reason": "verification:period-type-mismatch",
-      "period": "2026-05",
+      "period": "2026-06",
       "value": "4.9",
       "source": "OECD"
     },
@@ -839,8 +1058,8 @@
       "country": "Chile",
       "metric": "unemployment",
       "reason": "verification:period-type-mismatch",
-      "period": "2026-06",
-      "value": "9.276639",
+      "period": "2026-07",
+      "value": "9.355367",
       "source": "OECD"
     }
   ],
@@ -855,7 +1074,7 @@
       "source": "Eurostat",
       "ok": true,
       "candidates": 55,
-      "applied": 2
+      "applied": 23
     },
     {
       "source": "IMF WEO",
@@ -877,12 +1096,6 @@
     },
     {
       "source": "custom:uk-ons",
-      "ok": true,
-      "candidates": 1,
-      "mode": "deterministic-direct"
-    },
-    {
-      "source": "custom:japan-stat",
       "ok": true,
       "candidates": 1,
       "mode": "deterministic-direct"
@@ -934,12 +1147,6 @@
       "ok": true,
       "candidates": 0,
       "mode": "browser+official-page-verification"
-    },
-    {
-      "source": "custom:chile-jobs",
-      "ok": true,
-      "candidates": 1,
-      "mode": "deterministic-direct"
     },
     {
       "source": "custom:colombia-gdp",
