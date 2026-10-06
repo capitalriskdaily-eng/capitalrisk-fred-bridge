@@ -8,7 +8,7 @@ REPO='capitalriskdaily-eng/capitalrisk-fred-bridge'
 ACCOUNT='40ce5e11730882562d1c5dcc42be0b27'
 WORKER='capitalrisk-global-snapshot'
 BASE=f'https://{WORKER}.capitalriskdaily.workers.dev'
-VERSION='2026-10-06-source-repair-1'
+VERSION='2026-10-06-source-repair-2'
 REF=os.environ.get('CAPITALRISK_SNAPSHOT_REPAIR_REF','')
 if not re.fullmatch(r'[a-f0-9]{40}',REF):raise SystemExit('Pinned repair commit is missing.')
 
@@ -92,6 +92,39 @@ for item in bundle['files']:
     updates.append((p,desired))
 # Verify existing workflow and access before modifying local files.
 gh(f'repos/{REPO}/contents/.github/workflows/global-snapshot-friday.yml?ref={REF}')
+# Populate the Stats SA unemployment transport using its EXISTING workflow.
+# This preserves that workflow's daily schedule and adds no Cloudflare trigger.
+bridge='south-africa-cpi-bridge.yml'
+gh(f'repos/{REPO}/contents/.github/workflows/{bridge}?ref={REF}')
+bridge_runs=gh(f'repos/{REPO}/actions/workflows/{bridge}/runs?per_page=10')['workflow_runs']
+br=next((x for x in bridge_runs if x['status'] in ('queued','in_progress','waiting','pending') and x.get('head_sha')==REF),None)
+bridge_started=datetime.datetime.now(datetime.timezone.utc)
+if not br:
+    run(['gh','workflow','run',bridge,'--repo',REPO,'--ref','main'])
+    for attempt in range(10):
+        runs=gh(f'repos/{REPO}/actions/workflows/{bridge}/runs?per_page=5')['workflow_runs']
+        br=next((x for x in runs if x['event']=='workflow_dispatch' and datetime.datetime.fromisoformat(x['created_at'].replace('Z','+00:00'))>=bridge_started-datetime.timedelta(seconds=10)),None)
+        if br:break
+        time.sleep(3)
+if not br:raise SystemExit('Stats SA bridge submitted; run ID not visible yet. Do not submit duplicates.')
+print('STATS SA SOURCE CHECK:',br['html_url'],flush=True)
+for attempt in range(65):
+    job=gh(f'repos/{REPO}/actions/runs/{br["id"]}')
+    print(datetime.datetime.now().strftime('%H:%M:%S'),'Stats SA',job['status'],job.get('conclusion') or '',flush=True)
+    if job['status']=='completed':
+        if job['conclusion']!='success':
+            p=subprocess.run(['gh','run','view',str(br['id']),'--repo',REPO,'--log-failed'],text=True,capture_output=True)
+            for line in p.stdout.splitlines():
+                if re.search(r'No verified QLFS|ValueError|Error:|not a PDF|HTTPError',line):print(line)
+            raise SystemExit('Stats SA source check failed; Worker source has not been changed. '+br['html_url'])
+        break
+    time.sleep(30)
+else:raise SystemExit('Stats SA bridge still active. No Worker changes yet. '+br['html_url'])
+cache=gh(f'repos/{REPO}/contents/data/south-africa-jobs.json?ref=main')
+jobs=json.loads(base64.b64decode(cache['content']))
+if jobs.get('schema')!='capitalrisk.south-africa-jobs.bridge.v1' or jobs.get('institution')!='Statistics South Africa' or jobs.get('status')!='OFFICIAL ACTUAL':
+    raise SystemExit('Stats SA bridge cache validation failed; no Worker changes.')
+print('STATS SA VERIFIED:',jobs['period'],jobs['value'],flush=True)
 backup=root/('backup-source-repair-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S'))
 backup.mkdir()
 for p,data in updates:
