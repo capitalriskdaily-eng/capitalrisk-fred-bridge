@@ -1,442 +1,74 @@
 {
-  "publishedAt": "2026-10-06T08:51:58.749Z",
-  "refreshFinished": "2026-10-06T08:51:58.274Z",
+  "publishedAt": "2026-10-06T09:23:47.363Z",
+  "refreshFinished": "2026-10-06T09:23:46.412Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
   "updated": [
     {
-      "country": "Euro Area",
-      "metric": "unemployment",
-      "from": 6.3,
-      "to": 6.4,
+      "country": "India",
+      "metric": "rate",
+      "from": 5.25,
+      "to": 5.25,
       "fromPeriod": "2026-06",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
+      "toPeriod": "2026-10",
+      "source": "Reserve Bank of India",
+      "verification": "deterministic-direct"
     },
     {
-      "country": "Japan",
+      "country": "China",
       "metric": "unemployment",
-      "from": 2.4,
-      "to": 2.5,
+      "from": 5.2,
+      "to": 5.3,
       "fromPeriod": "2026-07",
       "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
+      "source": "National Bureau of Statistics of China",
+      "verification": "deterministic-direct"
     },
     {
-      "country": "Switzerland",
+      "country": "Brazil",
       "metric": "unemployment",
-      "from": 3,
-      "to": 5.1,
-      "fromPeriod": "2026 WEO estimate",
-      "toPeriod": "2026-06",
-      "source": "Eurostat",
+      "from": 5.4,
+      "to": 5.3,
+      "fromPeriod": "2026-Q2",
+      "toPeriod": "2026 Jun-Aug",
+      "source": "IBGE",
       "verification": "official-api"
     },
     {
-      "country": "Norway",
-      "metric": "unemployment",
-      "from": 4.2,
-      "to": 4.5,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Sweden",
-      "metric": "unemployment",
-      "from": 8.6,
-      "to": 8.9,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Denmark",
-      "metric": "unemployment",
-      "from": 6.7,
-      "to": 5.9,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Germany",
-      "metric": "unemployment",
-      "from": 4,
-      "to": 4,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "France",
-      "metric": "unemployment",
-      "from": 8.3,
-      "to": 8.2,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Italy",
-      "metric": "unemployment",
-      "from": 5.8,
-      "to": 6.2,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Spain",
-      "metric": "unemployment",
-      "from": 10,
-      "to": 10,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Netherlands",
-      "metric": "unemployment",
-      "from": 4,
-      "to": 4,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Belgium",
-      "metric": "unemployment",
-      "from": 6,
-      "to": 5.9,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Austria",
-      "metric": "unemployment",
-      "from": 6.2,
-      "to": 6.7,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Portugal",
-      "metric": "unemployment",
-      "from": 5.7,
-      "to": 5.7,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Finland",
-      "metric": "unemployment",
-      "from": 10.5,
-      "to": 9.9,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Greece",
-      "metric": "unemployment",
-      "from": 7.9,
-      "to": 7.4,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Ireland",
+      "country": "India",
       "metric": "unemployment",
       "from": 5.1,
       "to": 5,
       "fromPeriod": "2026-07",
       "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
+      "source": "Ministry of Statistics and Programme Implementation",
+      "verification": "deterministic-direct"
     },
     {
-      "country": "Slovakia",
+      "country": "Argentina",
       "metric": "unemployment",
-      "from": 5.7,
-      "to": 5.7,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Slovenia",
-      "metric": "unemployment",
-      "from": 3.5,
-      "to": 3.4,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Luxembourg",
-      "metric": "unemployment",
-      "from": 7.1,
-      "to": 7.3,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Estonia",
-      "metric": "unemployment",
-      "from": 6.9,
-      "to": 8,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Latvia",
-      "metric": "unemployment",
-      "from": 7.3,
-      "to": 7.3,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Lithuania",
-      "metric": "unemployment",
-      "from": 6.2,
-      "to": 6.1,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Croatia",
-      "metric": "unemployment",
-      "from": 4.3,
-      "to": 4.3,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Cyprus",
-      "metric": "unemployment",
-      "from": 3,
-      "to": 4.1,
-      "fromPeriod": "2026-06",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Malta",
-      "metric": "unemployment",
-      "from": 3.5,
-      "to": 3.4,
-      "fromPeriod": "2026-06",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Bulgaria",
-      "metric": "unemployment",
-      "from": 3.6,
-      "to": 3.5,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Poland",
-      "metric": "unemployment",
-      "from": 3.4,
-      "to": 3.4,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Czechia",
-      "metric": "unemployment",
-      "from": 3.3,
-      "to": 3.2,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "United States",
-      "metric": "unemployment",
-      "from": 4.1,
-      "to": 4.2,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "OECD",
-      "verification": "official-api"
-    },
-    {
-      "country": "Colombia",
-      "metric": "unemployment",
-      "from": 8.105068,
-      "to": 9.508496,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "OECD",
-      "verification": "official-api"
-    },
-    {
-      "country": "Japan",
-      "metric": "inflation",
-      "from": 1.898102,
-      "to": 1.9,
-      "fromPeriod": "2026-07",
-      "toPeriod": "2026-08",
-      "source": "Statistics Bureau of Japan",
+      "from": 7.8,
+      "to": 7.9,
+      "fromPeriod": "2026-Q1",
+      "toPeriod": "2026-Q2",
+      "source": "INDEC",
       "verification": "deterministic-direct"
     }
   ],
   "revisions": [
     {
-      "country": "Latvia",
+      "country": "Brazil",
       "metric": "gdp",
-      "from": 3,
-      "to": 3.4,
+      "from": 1.920149571,
+      "to": 2,
       "fromPeriod": "2026-Q2",
       "toPeriod": "2026-Q2",
-      "source": "Eurostat",
+      "source": "IBGE",
       "verification": "official-api"
-    },
-    {
-      "country": "Australia",
-      "metric": "unemployment",
-      "from": 4.646296,
-      "to": 4.6,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-08",
-      "source": "Australian Bureau of Statistics",
-      "verification": "deterministic-direct"
-    },
-    {
-      "country": "New Zealand",
-      "metric": "inflation",
-      "from": 4.058193,
-      "to": 4.1,
-      "fromPeriod": "2026-06",
-      "toPeriod": "2026-06",
-      "source": "Stats NZ",
-      "verification": "deterministic-direct"
     }
   ],
-  "unchangedCount": 305,
-  "sourceErrors": [
-    {
-      "source": "custom:korea-gdp",
-      "error": "Direct parser: Korea BOK: GDP release link not found; browser fallback found no independently verified observation"
-    },
-    {
-      "source": "custom:south-africa-jobs",
-      "error": "Browser json failed: [{\"code\":5006,\"message\":\"Network connection closed.\",\"detail\":\"Can also happen due to failure to resolve DNS.\"}]"
-    },
-    {
-      "source": "custom:argentina-jobs",
-      "error": "Direct parser: Argentina INDEC: unemployment observation not found; browser fallback found no independently verified observation"
-    }
-  ],
-  "verificationFailures": [
-    {
-      "source": "custom:china-nbs",
-      "country": "China",
-      "metric": "gdp",
-      "reason": "official-observation-not-found"
-    },
-    {
-      "source": "custom:china-nbs",
-      "country": "China",
-      "metric": "unemployment",
-      "reason": "official-observation-not-found"
-    },
-    {
-      "source": "custom:brazil-ibge",
-      "country": "Brazil",
-      "metric": "gdp",
-      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 1.9,
-      "period": "2026-Q2",
-      "pageHas": true,
-      "evidenceHas": false
-    },
-    {
-      "source": "custom:brazil-ibge",
-      "country": "Brazil",
-      "metric": "unemployment",
-      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 5.4,
-      "period": "2026-Q2",
-      "pageHas": true,
-      "evidenceHas": false
-    },
-    {
-      "source": "custom:india-plfs",
-      "country": "India",
-      "metric": "unemployment",
-      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 5,
-      "period": "2026-08",
-      "pageHas": false,
-      "evidenceHas": true
-    },
-    {
-      "source": "custom:india-plfs",
-      "country": "India",
-      "metric": "unemployment",
-      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 5,
-      "period": "2026-08",
-      "pageHas": false,
-      "evidenceHas": true
-    },
-    {
-      "source": "custom:korea-gdp",
-      "country": "South Korea",
-      "metric": "gdp",
-      "reason": "official-observation-not-found"
-    },
-    {
-      "source": "custom:argentina-jobs",
-      "country": "Argentina",
-      "metric": "unemployment",
-      "reason": "official-observation-not-found"
-    }
-  ],
+  "unchangedCount": 345,
+  "sourceErrors": [],
+  "verificationFailures": [],
   "rejected": [
     {
       "country": "United States",
@@ -1186,7 +818,7 @@
       "source": "Eurostat",
       "ok": true,
       "candidates": 86,
-      "applied": 31
+      "applied": 0
     },
     {
       "source": "IMF WEO",
@@ -1198,7 +830,13 @@
       "source": "OECD",
       "ok": true,
       "candidates": 114,
-      "applied": 2
+      "applied": 0
+    },
+    {
+      "source": "custom:india-rate",
+      "ok": true,
+      "candidates": 1,
+      "mode": "deterministic-direct"
     },
     {
       "source": "custom:latvia-cpi",
@@ -1221,8 +859,8 @@
     {
       "source": "custom:china-nbs",
       "ok": true,
-      "candidates": 0,
-      "mode": "browser+official-page-verification"
+      "candidates": 2,
+      "mode": "deterministic-direct"
     },
     {
       "source": "custom:australia-gdp",
@@ -1251,14 +889,20 @@
     {
       "source": "custom:brazil-ibge",
       "ok": true,
-      "candidates": 0,
-      "mode": "browser+official-page-verification"
+      "candidates": 2,
+      "mode": "deterministic-direct"
     },
     {
       "source": "custom:india-plfs",
       "ok": true,
-      "candidates": 0,
-      "mode": "browser+official-page-verification"
+      "candidates": 1,
+      "mode": "deterministic-direct"
+    },
+    {
+      "source": "custom:korea-gdp",
+      "ok": true,
+      "candidates": 1,
+      "mode": "deterministic-direct"
     },
     {
       "source": "custom:korea-jobs",
@@ -1271,6 +915,12 @@
       "ok": true,
       "candidates": 0,
       "mode": "confirmed-standard-official-source"
+    },
+    {
+      "source": "custom:south-africa-jobs",
+      "ok": true,
+      "candidates": 1,
+      "mode": "deterministic-direct"
     },
     {
       "source": "custom:south-africa-cpi",
@@ -1297,6 +947,12 @@
       "mode": "confirmed-standard-official-source"
     },
     {
+      "source": "custom:argentina-jobs",
+      "ok": true,
+      "candidates": 1,
+      "mode": "deterministic-direct"
+    },
+    {
       "source": "custom:chile-jobs",
       "ok": true,
       "candidates": 1,
@@ -1316,42 +972,6 @@
     }
   ],
   "staleFields": [
-    {
-      "country": "Switzerland",
-      "metric": "unemployment",
-      "period": "2026-06",
-      "institution": "Eurostat",
-      "lagMonths": 4,
-      "warningAfterMonths": 3,
-      "reason": "reference-period-lag"
-    },
-    {
-      "country": "Brazil",
-      "metric": "unemployment",
-      "period": "2026-Q2",
-      "institution": "IBGE",
-      "lagMonths": 4,
-      "warningAfterMonths": 3,
-      "reason": "reference-period-lag"
-    },
-    {
-      "country": "India",
-      "metric": "rate",
-      "period": "2026-06",
-      "institution": "Bank for International Settlements",
-      "lagMonths": 4,
-      "warningAfterMonths": 3,
-      "reason": "reference-period-lag"
-    },
-    {
-      "country": "Argentina",
-      "metric": "unemployment",
-      "period": "2026-Q1",
-      "institution": "INDEC",
-      "lagMonths": 7,
-      "warningAfterMonths": 6,
-      "reason": "reference-period-lag"
-    },
     {
       "country": "Luxembourg",
       "metric": "gdp",
@@ -1374,6 +994,6 @@
       "mode": "confirmed-standard-official-source"
     }
   ],
-  "browserCalls": 14,
+  "browserCalls": 0,
   "runStatus": "partial"
 }

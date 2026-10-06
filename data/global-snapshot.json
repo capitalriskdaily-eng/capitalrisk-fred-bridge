@@ -2,13 +2,13 @@
   "status": "ok",
   "dataset": "CapitalRisk Global Snapshot",
   "version": 1,
-  "lastCheckedAt": "2026-10-06T08:51:58.274Z",
-  "lastChangeAt": "2026-10-06T08:51:58.274Z",
+  "lastCheckedAt": "2026-10-06T09:23:46.412Z",
+  "lastChangeAt": "2026-10-06T09:23:46.412Z",
   "lastSuccessfulRun": "2026-09-30T18:15:46.734Z",
   "runStatus": "partial",
-  "staleFieldsCount": 5,
-  "sourceErrorsCount": 3,
-  "verificationFailuresCount": 8,
+  "staleFieldsCount": 1,
+  "sourceErrorsCount": 0,
+  "verificationFailuresCount": 0,
   "countries": [
     {
       "name": "United States",
@@ -347,7 +347,7 @@
       "rate": 3,
       "inflation": 0.8,
       "gdp": 4.3,
-      "unemployment": 5.2,
+      "unemployment": 5.3,
       "debt": 106.9,
       "meta": {
         "rate": {
@@ -390,13 +390,19 @@
           "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/202607/t20260715_1964120.html"
         },
         "unemployment": {
-          "period": "2026-07",
+          "period": "2026-08",
           "institution": "National Bureau of Statistics of China",
           "status": "OFFICIAL ACTUAL",
-          "notes": "Urban surveyed unemployment rate",
-          "verified": "2026-08-27",
+          "notes": "National urban surveyed unemployment rate",
+          "verified": "2026-10-06",
           "definition": "Latest national unemployment rate",
-          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/202608/t20260817_1965057.html"
+          "sourceUrl": "https://www.stats.gov.cn/english/PressRelease/202609/t20260915_1965305.html",
+          "verification": {
+            "verified": true,
+            "mode": "deterministic-direct",
+            "checkedAt": "2026-10-06T09:23:15.760Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "debt": {
           "period": "2026 WEO estimate",
@@ -976,8 +982,8 @@
       "region": "Americas",
       "rate": 14,
       "inflation": 4.223427,
-      "gdp": 1.920149571,
-      "unemployment": 5.4,
+      "gdp": 2,
+      "unemployment": 5.3,
       "debt": 96.5,
       "meta": {
         "rate": {
@@ -1012,27 +1018,33 @@
         },
         "gdp": {
           "period": "2026-Q2",
-          "institution": "OECD",
+          "institution": "IBGE",
           "status": "OFFICIAL ACTUAL",
-          "notes": "Compared with the same quarter of 2025",
-          "verified": "2026-09-10",
+          "notes": "Real GDP at market prices, change versus same quarter one year earlier (variable 6561)",
+          "verified": "2026-10-06",
           "definition": "Latest real GDP growth, year over year",
-          "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_OECD,1.1/Q..USA+EURO+GBR+JPN+CHN+CAN+AUS+CHE+NZL+NOR+SWE+DNK+BRA+IND+KOR+MEX+RUS+ZAF+TUR+SAU+IDN+ARG+CHL+COL+DEU+FRA+ITA+ESP+NLD+BEL+AUT+PRT+FIN+GRC+IRL+SVK+SVN+LUX+EST+LVA+LTU+HRV+CYP+MLT+BGR+POL+CZE...B1GQ......GY.?startPeriod=2025-Q1&dimensionAtObservation=AllDimensions",
+          "sourceUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/5932/periodos/-3/variaveis/6561?localidades=N1[all]&classificacao=11255[90707]",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:44:39.121Z",
+            "checkedAt": "2026-10-06T09:23:19.399Z",
             "allowSamePeriodRevision": true
           }
         },
         "unemployment": {
-          "period": "2026-Q2",
+          "period": "2026 Jun-Aug",
           "institution": "IBGE",
           "status": "OFFICIAL ACTUAL",
-          "notes": "National continuous household survey",
-          "verified": "2026-08-27",
+          "notes": "PNAD Contínua, national persons aged 14+, rolling three-month unemployment rate",
+          "verified": "2026-10-06",
           "definition": "Latest national unemployment rate",
-          "sourceUrl": "https://www.ibge.gov.br/en/indicators"
+          "sourceUrl": "https://servicodados.ibge.gov.br/api/v3/agregados/6381/periodos/-3/variaveis/4099?localidades=N1[all]",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-06T09:23:19.399Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "debt": {
           "period": "2026 WEO estimate",
@@ -1052,17 +1064,23 @@
       "rate": 5.25,
       "inflation": 4.96261,
       "gdp": 8.09816,
-      "unemployment": 5.1,
+      "unemployment": 5,
       "debt": 83.4,
       "meta": {
         "rate": {
-          "period": "2026-06",
-          "institution": "Bank for International Settlements",
+          "period": "2026-10",
+          "institution": "Reserve Bank of India",
           "status": "OFFICIAL ACTUAL",
-          "notes": null,
-          "verified": "2026-08-27",
+          "notes": "Current policy repo rate observed 2026-10-06; period is observation month, not the date of the last rate change",
+          "verified": "2026-10-06",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload"
+          "sourceUrl": "https://www.rbi.org.in/home.aspx",
+          "verification": {
+            "verified": true,
+            "mode": "deterministic-direct",
+            "checkedAt": "2026-10-06T09:23:03.963Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "inflation": {
           "period": "2026-08",
@@ -1095,13 +1113,19 @@
           }
         },
         "unemployment": {
-          "period": "2026-07",
+          "period": "2026-08",
           "institution": "Ministry of Statistics and Programme Implementation",
           "status": "OFFICIAL ACTUAL",
-          "notes": "Current weekly status; age 15+",
-          "verified": "2026-08-27",
+          "notes": "PLFS, persons aged 15+, all India, Current Weekly Status; official Ministry press note published by PIB",
+          "verified": "2026-10-06",
           "definition": "Latest national unemployment rate",
-          "sourceUrl": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1786961114962_47b9343c-f726-4581-8440-c2f119a86ab6_Monthly_Press_note_July_2026.pdf"
+          "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2310427&lang=1&reg=3",
+          "verification": {
+            "verified": true,
+            "mode": "deterministic-direct",
+            "checkedAt": "2026-10-06T09:23:24.809Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "debt": {
           "period": "2026 WEO estimate",
@@ -1652,7 +1676,7 @@
       "rate": null,
       "inflation": 33.54117,
       "gdp": 1.449031272,
-      "unemployment": 7.8,
+      "unemployment": 7.9,
       "debt": 70.4,
       "meta": {
         "rate": {
@@ -1695,13 +1719,19 @@
           }
         },
         "unemployment": {
-          "period": "2026-Q1",
+          "period": "2026-Q2",
           "institution": "INDEC",
           "status": "OFFICIAL ACTUAL",
-          "notes": "Percent of labour force",
-          "verified": "2026-08-27",
+          "notes": "EPH headline unemployment rate, total urban agglomerations",
+          "verified": "2026-10-06",
           "definition": "Latest national unemployment rate",
-          "sourceUrl": "https://sdds.indec.gob.ar/nsdp.htm"
+          "sourceUrl": "https://www.indec.gob.ar/indec/Portada",
+          "verification": {
+            "verified": true,
+            "mode": "deterministic-direct",
+            "checkedAt": "2026-10-06T09:23:41.970Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "debt": {
           "period": "2026 WEO estimate",
@@ -3584,7 +3614,7 @@
       }
     }
   ],
-  "publishedAt": "2026-10-06T08:51:58.749Z",
+  "publishedAt": "2026-10-06T09:23:47.363Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
-  "refreshFinished": "2026-10-06T08:51:58.274Z"
+  "refreshFinished": "2026-10-06T09:23:46.412Z"
 }
