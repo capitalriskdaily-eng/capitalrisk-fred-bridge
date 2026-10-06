@@ -99,7 +99,8 @@ try{
     {
       headers:{
         authorization:`Bearer ${TOKEN}`,
-        accept:'application/json'
+        accept:'application/json',
+        'user-agent':'CapitalRisk-GlobalSnapshot-Publisher/1.3'
       },
       signal:controller.signal
     }
@@ -122,7 +123,12 @@ const warnings={
   verificationFailures:Array.isArray(diag.verificationFailures)?diag.verificationFailures:[],
   rejected:Array.isArray(diag.rejected)?diag.rejected:[]
 };
-const partial=warnings.sourceErrors.length>0 || warnings.verificationFailures.length>0 || warnings.rejected.length>0;
+// Annual WEO forecasts deliberately cannot replace actual monthly/quarterly data.
+// Keeping those candidates out is normal selection, not a broken refresh.
+const rejectedErrors=warnings.rejected.filter(r=>!(r.reason==='verification:period-type-mismatch'&&/WEO estimate$/i.test(r.period||'')&&r.source==='IMF World Economic Outlook'));
+const partial=/partial/i.test(diag.runStatus||payload.snapshot.runStatus||'') ||
+  Number(payload.snapshot.staleFieldsCount)>0 || warnings.sourceErrors.length>0 ||
+  warnings.verificationFailures.length>0 || rejectedErrors.length>0;
 
 const canonical={
   ...payload.snapshot,
@@ -140,7 +146,11 @@ const publicDiag={
   sourceErrors:warnings.sourceErrors,
   verificationFailures:warnings.verificationFailures,
   rejected:warnings.rejected,
-  sources:diag.sources||[]
+  sources:diag.sources||[],
+  staleFields:diag.staleWarnings||[],
+  recoveredSources:diag.recoveredSources||[],
+  browserCalls:diag.browserCalls||0,
+  runStatus:diag.runStatus||null
 };
 
 fs.mkdirSync('data',{recursive:true});
@@ -151,3 +161,4 @@ console.log(`SNAPSHOT VALIDATION PASS: 47 economies / 235 fields`);
 console.log(`REFRESH STATUS: ${canonical.refreshStatus}`);
 console.log(`UPDATED: ${(diag.updated||[]).length}; REVISIONS: ${(diag.revisions||[]).length}; SOURCE ERRORS: ${warnings.sourceErrors.length}`);
 if(partial) console.log('Publishing is safe: failed/rejected candidates did not replace last verified values.');
+
