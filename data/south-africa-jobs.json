@@ -1,0 +1,14 @@
+{
+  "schema": "capitalrisk.south-africa-jobs.bridge.v1",
+  "country": "South Africa",
+  "metric": "unemployment",
+  "value": 33.6,
+  "period": "2026-Q2",
+  "institution": "Statistics South Africa",
+  "status": "OFFICIAL ACTUAL",
+  "definition": "Quarterly Labour Force Survey, national official unemployment rate",
+  "sourceUrl": "https://www.statssa.gov.za/publications/P0211/P02112ndQuarter2026.pdf",
+  "evidence": "official unemployment rate increased by 0,9 of a percentage point to 33,6% in Q2: 2026 compared with Q1: 2026. The official unemployment rate increased in",
+  "transport": "GitHub Actions bridge",
+  "verifiedAt": "2026-10-06T09:22:08.447038Z"
+}
