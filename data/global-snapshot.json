@@ -2,11 +2,11 @@
   "status": "ok",
   "dataset": "CapitalRisk Global Snapshot",
   "version": 1,
-  "lastCheckedAt": "2026-10-06T09:23:46.412Z",
-  "lastChangeAt": "2026-10-06T09:23:46.412Z",
-  "lastSuccessfulRun": "2026-09-30T18:15:46.734Z",
-  "runStatus": "partial",
-  "staleFieldsCount": 1,
+  "lastCheckedAt": "2026-10-09T13:42:14.640Z",
+  "lastChangeAt": "2026-10-09T13:42:14.640Z",
+  "lastSuccessfulRun": "2026-10-09T13:42:14.640Z",
+  "runStatus": "ok",
+  "staleFieldsCount": 0,
   "sourceErrorsCount": 0,
   "verificationFailuresCount": 0,
   "countries": [
@@ -14,24 +14,24 @@
       "name": "United States",
       "flag": "🇺🇸",
       "region": "Americas",
-      "rate": 3.625,
+      "rate": 3.875,
       "inflation": 3.396548,
       "gdp": 2.191574533,
       "unemployment": 4.2,
       "debt": 125.8,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -95,24 +95,24 @@
       "name": "Euro Area",
       "flag": "🇪🇺",
       "region": "Eurozone",
-      "rate": 2.25,
+      "rate": 2.5,
       "inflation": 3.8,
       "gdp": 1.2,
       "unemployment": 6.4,
       "debt": 87.8,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -189,17 +189,17 @@
       "debt": 103.6,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-10",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:22:20.515Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -263,24 +263,24 @@
       "name": "Japan",
       "flag": "🇯🇵",
       "region": "Asia-Pacific",
-      "rate": 1,
+      "rate": 1.25,
       "inflation": 1.9,
       "gdp": 0.726654038,
       "unemployment": 2.5,
       "debt": 204.4,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -351,17 +351,17 @@
       "debt": 106.9,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -426,17 +426,17 @@
       "debt": 110.7,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -588,17 +588,17 @@
       "debt": 38.5,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -662,24 +662,24 @@
       "name": "New Zealand",
       "flag": "🇳🇿",
       "region": "Asia-Pacific",
-      "rate": 2.5,
+      "rate": 2.75,
       "inflation": 4.1,
       "gdp": 2.550736229,
       "unemployment": 5.6,
       "debt": 56.7,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-10",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:22:20.515Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -737,24 +737,24 @@
       "name": "Norway",
       "flag": "🇳🇴",
       "region": "Europe",
-      "rate": 4.25,
+      "rate": 4.5,
       "inflation": 3.293413,
       "gdp": 1.6,
       "unemployment": 4.5,
       "debt": 42.9,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -825,17 +825,17 @@
       "debt": 36.7,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -899,24 +899,24 @@
       "name": "Denmark",
       "flag": "🇩🇰",
       "region": "Europe",
-      "rate": 1.85,
+      "rate": 2.1,
       "inflation": 2,
       "gdp": 5.7,
       "unemployment": 5.9,
       "debt": 27.4,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -980,24 +980,24 @@
       "name": "Brazil",
       "flag": "🇧🇷",
       "region": "Americas",
-      "rate": 14,
+      "rate": 13.75,
       "inflation": 4.223427,
       "gdp": 2,
       "unemployment": 5.3,
       "debt": 96.5,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1061,7 +1061,7 @@
       "name": "India",
       "flag": "🇮🇳",
       "region": "Asia-Pacific",
-      "rate": 5.25,
+      "rate": 5.5,
       "inflation": 4.96261,
       "gdp": 8.09816,
       "unemployment": 5,
@@ -1071,14 +1071,14 @@
           "period": "2026-10",
           "institution": "Reserve Bank of India",
           "status": "OFFICIAL ACTUAL",
-          "notes": "Current policy repo rate observed 2026-10-06; period is observation month, not the date of the last rate change",
-          "verified": "2026-10-06",
+          "notes": "Current policy repo rate observed 2026-10-07; period is observation month, not the date of the last rate change",
+          "verified": "2026-10-07",
           "definition": "Current central-bank policy rate",
           "sourceUrl": "https://www.rbi.org.in/home.aspx",
           "verification": {
             "verified": true,
             "mode": "deterministic-direct",
-            "checkedAt": "2026-10-06T09:23:03.963Z",
+            "checkedAt": "2026-10-07T18:10:43.028Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1143,7 +1143,7 @@
       "flag": "🇰🇷",
       "region": "Asia-Pacific",
       "rate": 2.75,
-      "inflation": 3.091455,
+      "inflation": 2.878865,
       "gdp": 3.7,
       "unemployment": 2.7,
       "debt": 54.4,
@@ -1158,17 +1158,17 @@
           "sourceUrl": "https://data.bis.org/bulkdownload"
         },
         "inflation": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "OECD",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-10",
+          "verified": "2026-10-08",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL,1.0/USA+EURO+GBR+JPN+CHN+CAN+AUS+CHE+NZL+NOR+SWE+DNK+BRA+IND+KOR+MEX+RUS+ZAF+TUR+SAU+IDN+ARG+CHL+COL+DEU+FRA+ITA+ESP+NLD+BEL+AUT+PRT+FIN+GRC+IRL+SVK+SVN+LUX+EST+LVA+LTU+HRV+CYP+MLT+BGR+POL+CZE.M.N.CPI.PA._T.N.GY?startPeriod=2025-01&dimensionAtObservation=AllDimensions",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:44:37.699Z",
+            "checkedAt": "2026-10-08T18:10:20.694Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1218,17 +1218,17 @@
       "debt": 62.7,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1299,17 +1299,17 @@
       "debt": 19.1,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1361,24 +1361,24 @@
       "name": "South Africa",
       "flag": "🇿🇦",
       "region": "Other",
-      "rate": 7,
+      "rate": 7.25,
       "inflation": 4.4,
       "gdp": 0.854857248,
       "unemployment": 33.6,
       "debt": 78.9,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-10",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:22:20.515Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1443,17 +1443,17 @@
       "debt": 25.5,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-10",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:22:20.515Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1517,24 +1517,24 @@
       "name": "Saudi Arabia",
       "flag": "🇸🇦",
       "region": "Other",
-      "rate": 4.25,
+      "rate": 4.5,
       "inflation": 1.819232,
       "gdp": -4.7,
       "unemployment": 6.5,
       "debt": 32.1,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-17",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
           "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-17T18:10:53.787Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1605,17 +1605,17 @@
       "debt": 41.5,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-10",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:22:20.515Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1755,17 +1755,17 @@
       "debt": 42.5,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1836,17 +1836,17 @@
       "debt": 60.9,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-10",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:22:20.515Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2688,17 +2688,17 @@
           }
         },
         "unemployment": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "Seasonally adjusted",
-          "verified": "2026-10-06",
+          "verified": "2026-10-08",
           "definition": "Latest national unemployment rate",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?format=JSON&lang=EN&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-06T08:47:40.360Z",
+            "checkedAt": "2026-10-08T18:10:05.492Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2869,7 +2869,7 @@
       "region": "Eurozone",
       "rate": 2.25,
       "inflation": 5.2,
-      "gdp": 1.6,
+      "gdp": 1.3,
       "unemployment": 7.3,
       "debt": 28,
       "meta": {
@@ -2898,17 +2898,17 @@
           }
         },
         "gdp": {
-          "period": "2026-Q1",
+          "period": "2026-Q2",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-09-10",
+          "verified": "2026-10-09",
           "definition": "Latest real GDP growth, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?format=JSON&lang=EN&unit=CLV_PCH_SM&na_item=B1GQ&s_adj=SCA&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T18:00:57.842Z",
+            "checkedAt": "2026-10-09T13:41:30.223Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3018,7 +3018,7 @@
       "flag": "🇱🇻",
       "region": "Eurozone",
       "rate": 2.25,
-      "inflation": 2.9,
+      "inflation": 3.2,
       "gdp": 3.4,
       "unemployment": 7.3,
       "debt": 47.4,
@@ -3034,16 +3034,16 @@
         },
         "inflation": {
           "period": "2026-09",
-          "institution": "Eurostat",
+          "institution": "Central Statistical Bureau of Latvia",
           "status": "OFFICIAL ACTUAL",
-          "notes": "HICP all-items, year on year",
-          "verified": "2026-10-02",
+          "notes": "Official national CPI, all goods and services, year on year",
+          "verified": "2026-10-08",
           "definition": "Latest headline consumer-price inflation, year over year",
-          "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
+          "sourceUrl": "https://api.stat.gov.lv/api/v2/tables/PCI021M/data?lang=en&valueCodes%5BECOICOP_V2%5D=0&valueCodes%5BContentsCode%5D=PCI021m6&valueCodes%5BTIME%5D=2026M09&outputFormat=json-stat2",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-02T13:06:10.884Z",
+            "checkedAt": "2026-10-08T18:10:27.389Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3094,7 +3094,7 @@
       "region": "Eurozone",
       "rate": 2.25,
       "inflation": 6.1,
-      "gdp": 3.8,
+      "gdp": 3.9,
       "unemployment": 6.1,
       "debt": 45.1,
       "meta": {
@@ -3127,9 +3127,15 @@
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "Flash estimate",
-          "verified": "2026-08-27",
+          "verified": "2026-10-07",
           "definition": "Latest real GDP growth, year over year",
-          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+          "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?format=JSON&lang=EN&unit=CLV_PCH_SM&na_item=B1GQ&s_adj=SCA&lastTimePeriod=3",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-07T18:10:36.773Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "unemployment": {
           "period": "2026-08",
@@ -3462,17 +3468,17 @@
       "debt": 65.7,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3543,17 +3549,17 @@
       "debt": 46.4,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-04",
+          "verified": "2026-10-08",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:16.284Z",
+            "checkedAt": "2026-10-08T18:10:04.496Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3614,7 +3620,7 @@
       }
     }
   ],
-  "publishedAt": "2026-10-06T09:23:47.363Z",
+  "publishedAt": "2026-10-09T13:42:15.193Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
-  "refreshFinished": "2026-10-06T09:23:46.412Z"
+  "refreshFinished": "2026-10-09T13:42:14.640Z"
 }
