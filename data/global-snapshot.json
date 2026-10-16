@@ -2,13 +2,13 @@
   "status": "ok",
   "dataset": "CapitalRisk Global Snapshot",
   "version": 1,
-  "lastCheckedAt": "2026-10-09T13:42:14.640Z",
-  "lastChangeAt": "2026-10-09T13:42:14.640Z",
-  "lastSuccessfulRun": "2026-10-09T13:42:14.640Z",
-  "runStatus": "ok",
+  "lastCheckedAt": "2026-10-16T11:54:18.262Z",
+  "lastChangeAt": "2026-10-16T11:54:18.262Z",
+  "lastSuccessfulRun": "2026-10-16T11:54:18.262Z",
+  "runStatus": "ok-with-warnings",
   "staleFieldsCount": 0,
-  "sourceErrorsCount": 0,
-  "verificationFailuresCount": 0,
+  "sourceErrorsCount": 1,
+  "verificationFailuresCount": 2,
   "countries": [
     {
       "name": "United States",
@@ -18,7 +18,7 @@
       "inflation": 3.396548,
       "gdp": 2.191574533,
       "unemployment": 4.2,
-      "debt": 125.8,
+      "debt": 126.8,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -85,9 +85,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -99,7 +105,7 @@
       "inflation": 3.8,
       "gdp": 1.2,
       "unemployment": 6.4,
-      "debt": 87.8,
+      "debt": 88,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -166,13 +172,13 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-31",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO",
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-08-31T10:21:05.432Z",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
             "allowSamePeriodRevision": true
           }
         }
@@ -186,7 +192,7 @@
       "inflation": 3.3,
       "gdp": 1.372599483,
       "unemployment": 4.9,
-      "debt": 103.6,
+      "debt": 102,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -253,9 +259,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -267,7 +279,7 @@
       "inflation": 1.9,
       "gdp": 0.726654038,
       "unemployment": 2.5,
-      "debt": 204.4,
+      "debt": 199.4,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -334,9 +346,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -348,7 +366,7 @@
       "inflation": 0.8,
       "gdp": 4.3,
       "unemployment": 5.3,
-      "debt": 106.9,
+      "debt": 104.4,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -409,9 +427,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -423,7 +447,7 @@
       "inflation": 3.033981,
       "gdp": 1.127895912,
       "unemployment": 6.4,
-      "debt": 110.7,
+      "debt": 115.6,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -490,9 +514,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -500,24 +530,24 @@
       "name": "Australia",
       "flag": "🇦🇺",
       "region": "Asia-Pacific",
-      "rate": 4.35,
+      "rate": 4.6,
       "inflation": 3.967855,
       "gdp": 2.1,
-      "unemployment": 4.6,
-      "debt": 50.6,
+      "unemployment": 4.7,
+      "debt": 52.6,
       "meta": {
         "rate": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-10",
+          "verified": "2026-10-15",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload",
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:22:20.515Z",
+            "checkedAt": "2026-10-15T18:10:20.264Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -552,17 +582,17 @@
           }
         },
         "unemployment": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Australian Bureau of Statistics",
           "status": "OFFICIAL ACTUAL",
           "notes": "Seasonally adjusted",
-          "verified": "2026-10-06",
+          "verified": "2026-10-15",
           "definition": "Latest national unemployment rate",
           "sourceUrl": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
           "verification": {
             "verified": true,
             "mode": "deterministic-direct",
-            "checkedAt": "2026-10-06T08:48:26.412Z",
+            "checkedAt": "2026-10-15T18:10:43.913Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -571,9 +601,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -585,7 +621,7 @@
       "inflation": 0.807246,
       "gdp": 2.6,
       "unemployment": 5.1,
-      "debt": 38.5,
+      "debt": 38.3,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -652,9 +688,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -666,7 +708,7 @@
       "inflation": 4.1,
       "gdp": 2.550736229,
       "unemployment": 5.6,
-      "debt": 56.7,
+      "debt": 57.1,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -727,9 +769,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -741,7 +789,7 @@
       "inflation": 3.293413,
       "gdp": 1.6,
       "unemployment": 4.5,
-      "debt": 42.9,
+      "debt": 40,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -808,9 +856,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -819,10 +873,10 @@
       "flag": "🇸🇪",
       "region": "Europe",
       "rate": 1.75,
-      "inflation": 0.3,
+      "inflation": 1,
       "gdp": 3.2,
       "unemployment": 8.9,
-      "debt": 36.7,
+      "debt": 35.1,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -840,17 +894,17 @@
           }
         },
         "inflation": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-09-17",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-17T18:10:54.842Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -889,9 +943,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -900,10 +960,10 @@
       "flag": "🇩🇰",
       "region": "Europe",
       "rate": 2.1,
-      "inflation": 2,
+      "inflation": 2.1,
       "gdp": 5.7,
       "unemployment": 5.9,
-      "debt": 27.4,
+      "debt": 26.4,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -921,17 +981,17 @@
           }
         },
         "inflation": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-09-17",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-17T18:10:54.842Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -970,9 +1030,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -984,7 +1050,7 @@
       "inflation": 4.223427,
       "gdp": 2,
       "unemployment": 5.3,
-      "debt": 96.5,
+      "debt": 97,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1051,9 +1117,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1065,7 +1137,7 @@
       "inflation": 4.96261,
       "gdp": 8.09816,
       "unemployment": 5,
-      "debt": 83.4,
+      "debt": 83.1,
       "meta": {
         "rate": {
           "period": "2026-10",
@@ -1132,9 +1204,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1142,20 +1220,26 @@
       "name": "South Korea",
       "flag": "🇰🇷",
       "region": "Asia-Pacific",
-      "rate": 2.75,
+      "rate": 3,
       "inflation": 2.878865,
       "gdp": 3.7,
       "unemployment": 2.7,
-      "debt": 54.4,
+      "debt": 47.3,
       "meta": {
         "rate": {
-          "period": "2026-07",
+          "period": "2026-09",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-08-27",
+          "verified": "2026-10-15",
           "definition": "Current central-bank policy rate",
-          "sourceUrl": "https://data.bis.org/bulkdownload"
+          "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-15T18:10:20.264Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "inflation": {
           "period": "2026-09",
@@ -1201,9 +1285,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1215,7 +1305,7 @@
       "inflation": 3.261942,
       "gdp": 1.925441319,
       "unemployment": 2.747905,
-      "debt": 62.7,
+      "debt": 62.1,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1282,9 +1372,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1294,9 +1390,9 @@
       "region": "Europe",
       "rate": 14,
       "inflation": 6.34473,
-      "gdp": 1.1,
-      "unemployment": 2.4,
-      "debt": 19.1,
+      "gdp": 0.9,
+      "unemployment": 2.2,
+      "debt": 19.3,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1333,27 +1429,45 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "Latest real GDP growth, year over year",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:07.403Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "unemployment": {
           "period": "2026 WEO estimate",
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "Latest national unemployment rate",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/LUR?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.127Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "debt": {
           "period": "2026 WEO estimate",
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1365,7 +1479,7 @@
       "inflation": 4.4,
       "gdp": 0.854857248,
       "unemployment": 33.6,
-      "debt": 78.9,
+      "debt": 78,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1426,9 +1540,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1440,7 +1560,7 @@
       "inflation": 31.5073428209,
       "gdp": 2.6,
       "unemployment": 7.8,
-      "debt": 25.5,
+      "debt": 22.5,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1507,9 +1627,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1521,7 +1647,7 @@
       "inflation": 1.819232,
       "gdp": -4.7,
       "unemployment": 6.5,
-      "debt": 32.1,
+      "debt": 35.4,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1588,9 +1714,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1601,8 +1733,8 @@
       "rate": 5.75,
       "inflation": 3.19,
       "gdp": 5.299343703,
-      "unemployment": 4.9,
-      "debt": 41.5,
+      "unemployment": 4.7,
+      "debt": 41.7,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1654,18 +1786,30 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "Latest national unemployment rate",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/LUR?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.127Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "debt": {
           "period": "2026 WEO estimate",
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1677,7 +1821,7 @@
       "inflation": 33.54117,
       "gdp": 1.449031272,
       "unemployment": 7.9,
-      "debt": 70.4,
+      "debt": 69.3,
       "meta": {
         "rate": {
           "period": null,
@@ -1738,9 +1882,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1752,7 +1902,7 @@
       "inflation": 4.1321553,
       "gdp": -0.327867472,
       "unemployment": 9.6,
-      "debt": 42.5,
+      "debt": 42.8,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1819,9 +1969,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1833,7 +1989,7 @@
       "inflation": 6.241686,
       "gdp": 3.5,
       "unemployment": 9.508496,
-      "debt": 60.9,
+      "debt": 59.5,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -1894,9 +2050,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -1983,7 +2145,7 @@
       "inflation": 3.4,
       "gdp": 0.5,
       "unemployment": 8.2,
-      "debt": 118.4,
+      "debt": 118.5,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2044,9 +2206,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2055,10 +2223,10 @@
       "flag": "🇮🇹",
       "region": "Eurozone",
       "rate": 2.25,
-      "inflation": 4.1,
+      "inflation": 4.2,
       "gdp": 1,
       "unemployment": 6.2,
-      "debt": 138.4,
+      "debt": 137.9,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2074,13 +2242,13 @@
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-10-02",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-02T13:06:10.884Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2113,9 +2281,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2127,7 +2301,7 @@
       "inflation": 5,
       "gdp": 2.6,
       "unemployment": 10,
-      "debt": 98.2,
+      "debt": 97.6,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2188,9 +2362,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2202,7 +2382,7 @@
       "inflation": 3,
       "gdp": 1.8,
       "unemployment": 4,
-      "debt": 44.1,
+      "debt": 45.4,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2244,17 +2424,17 @@
           }
         },
         "unemployment": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "Seasonally adjusted",
-          "verified": "2026-10-06",
+          "verified": "2026-10-16",
           "definition": "Latest national unemployment rate",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?format=JSON&lang=EN&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-06T08:47:40.360Z",
+            "checkedAt": "2026-10-16T11:51:03.591Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2263,9 +2443,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2274,10 +2460,10 @@
       "flag": "🇧🇪",
       "region": "Eurozone",
       "rate": 2.25,
-      "inflation": 4.6,
+      "inflation": 4.5,
       "gdp": 0.5,
       "unemployment": 5.9,
-      "debt": 109.2,
+      "debt": 109.8,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2293,13 +2479,13 @@
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-10-02",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-02T13:06:10.884Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2332,9 +2518,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2343,10 +2535,10 @@
       "flag": "🇦🇹",
       "region": "Eurozone",
       "rate": 2.25,
-      "inflation": 3.5,
+      "inflation": 3.6,
       "gdp": 0.8,
       "unemployment": 6.7,
-      "debt": 82.1,
+      "debt": 82.4,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2362,13 +2554,13 @@
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-10-02",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-02T13:06:10.884Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2407,9 +2599,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2421,7 +2619,7 @@
       "inflation": 3.6,
       "gdp": 2.6,
       "unemployment": 5.7,
-      "debt": 85.6,
+      "debt": 85.1,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2482,9 +2680,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2493,10 +2697,10 @@
       "flag": "🇫🇮",
       "region": "Eurozone",
       "rate": 2.25,
-      "inflation": 2.6,
+      "inflation": 2.7,
       "gdp": 1.4,
       "unemployment": 9.9,
-      "debt": 93.1,
+      "debt": 90.6,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2512,13 +2716,13 @@
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-10-02",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-02T13:06:10.884Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2557,9 +2761,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2571,7 +2781,7 @@
       "inflation": 5.1,
       "gdp": 1.9,
       "unemployment": 7.4,
-      "debt": 136.9,
+      "debt": 136,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2632,9 +2842,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2646,7 +2862,7 @@
       "inflation": 3.8,
       "gdp": -0.4,
       "unemployment": 5,
-      "debt": 31.6,
+      "debt": 33.5,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2707,9 +2923,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2718,10 +2940,10 @@
       "flag": "🇸🇰",
       "region": "Eurozone",
       "rate": 2.25,
-      "inflation": 3.1,
+      "inflation": 3,
       "gdp": 0.9,
       "unemployment": 5.7,
-      "debt": 63,
+      "debt": 62.2,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2737,13 +2959,13 @@
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-10-02",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-02T13:06:10.884Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2782,9 +3004,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2796,7 +3024,7 @@
       "inflation": 3.7,
       "gdp": 4.9,
       "unemployment": 3.4,
-      "debt": 65.2,
+      "debt": 63.5,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2857,9 +3085,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2871,7 +3105,7 @@
       "inflation": 5.2,
       "gdp": 1.3,
       "unemployment": 7.3,
-      "debt": 28,
+      "debt": 28.5,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2932,9 +3166,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -2943,10 +3183,10 @@
       "flag": "🇪🇪",
       "region": "Eurozone",
       "rate": 2.25,
-      "inflation": 3,
+      "inflation": 3.1,
       "gdp": 1.8,
       "unemployment": 8,
-      "debt": 27.8,
+      "debt": 27.5,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -2962,13 +3202,13 @@
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-10-02",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-02T13:06:10.884Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3007,9 +3247,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -3021,7 +3267,7 @@
       "inflation": 3.2,
       "gdp": 3.4,
       "unemployment": 7.3,
-      "debt": 47.4,
+      "debt": 47,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -3082,9 +3328,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -3096,7 +3348,7 @@
       "inflation": 6.1,
       "gdp": 3.9,
       "unemployment": 6.1,
-      "debt": 45.1,
+      "debt": 44.7,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -3157,9 +3409,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -3171,7 +3429,7 @@
       "inflation": 4.3,
       "gdp": 1.7,
       "unemployment": 4.3,
-      "debt": 56.5,
+      "debt": 56.3,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -3232,9 +3490,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -3246,7 +3510,7 @@
       "inflation": 5.2,
       "gdp": 3.3,
       "unemployment": 4.1,
-      "debt": 50.9,
+      "debt": 51.4,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -3301,9 +3565,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -3315,7 +3585,7 @@
       "inflation": 2.4,
       "gdp": 5,
       "unemployment": 3.4,
-      "debt": 47.3,
+      "debt": 46.4,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -3376,9 +3646,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -3390,7 +3666,7 @@
       "inflation": 5.6,
       "gdp": 2.8,
       "unemployment": 3.5,
-      "debt": 28.2,
+      "debt": 32.9,
       "meta": {
         "rate": {
           "period": "2026-07",
@@ -3451,9 +3727,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -3462,10 +3744,10 @@
       "flag": "🇵🇱",
       "region": "Europe",
       "rate": 3.75,
-      "inflation": 3.5,
+      "inflation": 4,
       "gdp": 3.8,
       "unemployment": 3.4,
-      "debt": 65.7,
+      "debt": 66.6,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -3483,17 +3765,17 @@
           }
         },
         "inflation": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-09-17",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-17T18:10:54.842Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3532,9 +3814,15 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     },
@@ -3543,10 +3831,10 @@
       "flag": "🇨🇿",
       "region": "Europe",
       "rate": 3.75,
-      "inflation": 1.5,
+      "inflation": 2.2,
       "gdp": 1.8,
       "unemployment": 3.2,
-      "debt": 46.4,
+      "debt": 45.8,
       "meta": {
         "rate": {
           "period": "2026-09",
@@ -3564,17 +3852,17 @@
           }
         },
         "inflation": {
-          "period": "2026-08",
+          "period": "2026-09",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "HICP all-items, year on year",
-          "verified": "2026-09-17",
+          "verified": "2026-10-16",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-17T18:10:54.842Z",
+            "checkedAt": "2026-10-16T11:51:04.206Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3613,14 +3901,20 @@
           "institution": "IMF World Economic Outlook",
           "status": "OFFICIAL ESTIMATE",
           "notes": "Annual WEO estimate used until a latest national release is verified",
-          "verified": "2026-08-27",
+          "verified": "2026-10-13",
           "definition": "General-government gross debt as percent of GDP",
-          "sourceUrl": "https://www.imf.org/external/datamapper/datasets/WEO"
+          "sourceUrl": "https://www.imf.org/external/datamapper/api/v2/GGXWDG_NGDP?periods=2026",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-10-13T18:10:08.668Z",
+            "allowSamePeriodRevision": true
+          }
         }
       }
     }
   ],
-  "publishedAt": "2026-10-09T13:42:15.193Z",
+  "publishedAt": "2026-10-16T11:54:18.865Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
-  "refreshFinished": "2026-10-09T13:42:14.640Z"
+  "refreshFinished": "2026-10-16T11:54:18.262Z"
 }
