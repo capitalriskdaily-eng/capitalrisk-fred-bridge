@@ -1,423 +1,33 @@
 {
-  "publishedAt": "2026-10-30T13:30:07.788Z",
-  "refreshFinished": "2026-10-30T13:30:07.156Z",
+  "publishedAt": "2026-11-06T14:37:04.079Z",
+  "refreshFinished": "2026-11-06T14:37:03.248Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
   "updated": [
     {
-      "country": "Euro Area",
-      "metric": "unemployment",
-      "from": 6.4,
-      "to": 6.5,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Japan",
-      "metric": "unemployment",
-      "from": 2.5,
-      "to": 2.4,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Norway",
-      "metric": "unemployment",
-      "from": 4.5,
-      "to": 5,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Denmark",
-      "metric": "unemployment",
-      "from": 5.9,
-      "to": 6.8,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Turkey",
-      "metric": "unemployment",
-      "from": 7.8,
-      "to": 8.4,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Germany",
-      "metric": "unemployment",
-      "from": 4,
-      "to": 4.1,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "France",
-      "metric": "unemployment",
-      "from": 8.2,
-      "to": 8.5,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Italy",
-      "metric": "unemployment",
-      "from": 6.2,
-      "to": 6.3,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Spain",
-      "metric": "unemployment",
-      "from": 10,
-      "to": 10.3,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Belgium",
-      "metric": "unemployment",
-      "from": 5.9,
-      "to": 6,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Austria",
-      "metric": "unemployment",
-      "from": 6.7,
-      "to": 6.3,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Portugal",
-      "metric": "unemployment",
-      "from": 5.7,
-      "to": 5.6,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Greece",
-      "metric": "unemployment",
-      "from": 7.4,
-      "to": 7.6,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Slovakia",
-      "metric": "unemployment",
-      "from": 5.7,
-      "to": 5.7,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Slovenia",
-      "metric": "unemployment",
-      "from": 3.4,
-      "to": 3.6,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Luxembourg",
-      "metric": "unemployment",
-      "from": 7.3,
-      "to": 7.3,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Estonia",
-      "metric": "unemployment",
-      "from": 8,
-      "to": 8,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Latvia",
-      "metric": "unemployment",
-      "from": 7.3,
-      "to": 7.3,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Lithuania",
-      "metric": "unemployment",
-      "from": 6.1,
-      "to": 6.2,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Croatia",
-      "metric": "unemployment",
-      "from": 4.3,
-      "to": 4.3,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Cyprus",
-      "metric": "unemployment",
-      "from": 4.1,
-      "to": 4,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Malta",
-      "metric": "unemployment",
-      "from": 3.4,
-      "to": 3.4,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Bulgaria",
-      "metric": "unemployment",
-      "from": 3.5,
-      "to": 3.4,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Poland",
-      "metric": "unemployment",
-      "from": 3.4,
-      "to": 3.4,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Czechia",
-      "metric": "unemployment",
-      "from": 3.2,
-      "to": 2.8,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Euro Area",
-      "metric": "gdp",
-      "from": 1.2,
-      "to": 1.3,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Sweden",
-      "metric": "gdp",
-      "from": 3.2,
-      "to": 2.8,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Germany",
-      "metric": "gdp",
-      "from": 1,
-      "to": 1.2,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "France",
-      "metric": "gdp",
-      "from": 0.5,
-      "to": -0.1,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Italy",
-      "metric": "gdp",
-      "from": 1,
-      "to": 0.8,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Spain",
-      "metric": "gdp",
-      "from": 2.6,
-      "to": 2.7,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Netherlands",
-      "metric": "gdp",
-      "from": 1.8,
-      "to": 2.1,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Belgium",
-      "metric": "gdp",
-      "from": 0.7,
-      "to": 0.7,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Austria",
-      "metric": "gdp",
-      "from": 0.8,
-      "to": 0.6,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Portugal",
-      "metric": "gdp",
-      "from": 2.6,
-      "to": 2.4,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Finland",
-      "metric": "gdp",
-      "from": 1.4,
-      "to": 2.1,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
       "country": "Ireland",
-      "metric": "gdp",
-      "from": -0.4,
-      "to": 3.6,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
+      "metric": "unemployment",
+      "from": 5,
+      "to": 4.8,
+      "fromPeriod": "2026-09",
+      "toPeriod": "2026-10",
       "source": "Eurostat",
       "verification": "official-api"
     },
     {
-      "country": "Estonia",
-      "metric": "gdp",
-      "from": 1.8,
-      "to": 2.2,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Lithuania",
-      "metric": "gdp",
-      "from": 3.9,
-      "to": 2.3,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Czechia",
-      "metric": "gdp",
-      "from": 1.8,
-      "to": 1.6,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Australia",
-      "metric": "inflation",
-      "from": 3.967855,
-      "to": 4.34,
+      "country": "Colombia",
+      "metric": "unemployment",
+      "from": 9.508496,
+      "to": 8.497915,
       "fromPeriod": "2026-08",
       "toPeriod": "2026-09",
       "source": "OECD",
       "verification": "official-api"
     },
     {
-      "country": "United States",
+      "country": "Indonesia",
       "metric": "gdp",
-      "from": 2.191574533,
-      "to": 2.065739238,
+      "from": 5.299343703,
+      "to": 5.552050018,
       "fromPeriod": "2026-Q2",
       "toPeriod": "2026-Q3",
       "source": "OECD",
@@ -425,14 +35,35 @@
     }
   ],
   "revisions": [],
-  "unchangedCount": 304,
+  "unchangedCount": 345,
   "sourceErrors": [
     {
       "source": "custom:india-plfs",
-      "error": "Browser json failed: [{\"code\":5006,\"message\":\"Network connection closed.\",\"detail\":\"Can also happen due to failure to resolve DNS.\"}]"
+      "error": "Direct parser: PIB: national 15+ CWS unemployment definition/reference not found; browser fallback found no independently verified observation"
     }
   ],
-  "verificationFailures": [],
+  "verificationFailures": [
+    {
+      "source": "custom:india-plfs",
+      "country": "India",
+      "metric": "unemployment",
+      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
+      "value": 5,
+      "period": "2026-09",
+      "pageHas": false,
+      "evidenceHas": false
+    },
+    {
+      "source": "custom:india-plfs",
+      "country": "India",
+      "metric": "unemployment",
+      "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
+      "value": 5,
+      "period": "2026-09",
+      "pageHas": false,
+      "evidenceHas": false
+    }
+  ],
   "rejected": [
     {
       "country": "United States",
@@ -1166,8 +797,8 @@
       "country": "Chile",
       "metric": "unemployment",
       "reason": "verification:period-type-mismatch",
-      "period": "2026-07",
-      "value": "9.355367",
+      "period": "2026-08",
+      "value": "9.565078",
       "source": "OECD"
     },
     {
@@ -1190,7 +821,7 @@
       "source": "Eurostat",
       "ok": true,
       "candidates": 85,
-      "applied": 41
+      "applied": 1
     },
     {
       "source": "IMF WEO",
@@ -1337,11 +968,201 @@
       "mode": "deterministic-direct-shared"
     }
   ],
-  "staleFields": [],
+  "staleFields": [
+    {
+      "country": "Germany",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "France",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Italy",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Spain",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Netherlands",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Belgium",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Austria",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Portugal",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Finland",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Greece",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Ireland",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Slovakia",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Slovenia",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Luxembourg",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Estonia",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Latvia",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Lithuania",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Croatia",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Cyprus",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Malta",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    },
+    {
+      "country": "Bulgaria",
+      "metric": "rate",
+      "period": "2026-07",
+      "institution": "Bank for International Settlements",
+      "lagMonths": 4,
+      "warningAfterMonths": 3,
+      "reason": "reference-period-lag"
+    }
+  ],
   "recoveredSources": [
     {
       "source": "custom:brazil-ibge",
-      "directError": "522 <none> @ https://servicodados.ibge.gov.br/api/v3/agregados/6381/periodos/-3/variaveis/4099?localidades=N1[all]",
+      "directError": "522 <none> @ https://servicodados.ibge.gov.br/api/v3/agregados/5932/periodos/-3/variaveis/6561?localidades=N1[all]&classificacao=11255[90707]",
       "mode": "browser-with-official-page-verification"
     },
     {
@@ -1355,6 +1176,6 @@
       "mode": "confirmed-standard-official-source"
     }
   ],
-  "browserCalls": 4,
-  "runStatus": "ok-with-warnings"
+  "browserCalls": 6,
+  "runStatus": "partial"
 }
