@@ -1,33 +1,53 @@
 {
-  "publishedAt": "2026-11-06T14:37:04.079Z",
-  "refreshFinished": "2026-11-06T14:37:03.248Z",
+  "publishedAt": "2026-11-13T14:55:40.087Z",
+  "refreshFinished": "2026-11-13T14:55:39.345Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
   "updated": [
     {
-      "country": "Ireland",
-      "metric": "unemployment",
-      "from": 5,
-      "to": 4.8,
-      "fromPeriod": "2026-09",
-      "toPeriod": "2026-10",
+      "country": "Slovakia",
+      "metric": "gdp",
+      "from": 0.9,
+      "to": 0.5,
+      "fromPeriod": "2026-Q2",
+      "toPeriod": "2026-Q3",
       "source": "Eurostat",
       "verification": "official-api"
     },
     {
-      "country": "Colombia",
-      "metric": "unemployment",
-      "from": 9.508496,
-      "to": 8.497915,
-      "fromPeriod": "2026-08",
-      "toPeriod": "2026-09",
-      "source": "OECD",
+      "country": "Cyprus",
+      "metric": "gdp",
+      "from": 3.3,
+      "to": 3.1,
+      "fromPeriod": "2026-Q2",
+      "toPeriod": "2026-Q3",
+      "source": "Eurostat",
       "verification": "official-api"
     },
     {
-      "country": "Indonesia",
+      "country": "Bulgaria",
       "metric": "gdp",
-      "from": 5.299343703,
-      "to": 5.552050018,
+      "from": 2.8,
+      "to": 2.5,
+      "fromPeriod": "2026-Q2",
+      "toPeriod": "2026-Q3",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "Poland",
+      "metric": "gdp",
+      "from": 4,
+      "to": 3.6,
+      "fromPeriod": "2026-Q2",
+      "toPeriod": "2026-Q3",
+      "source": "Eurostat",
+      "verification": "official-api"
+    },
+    {
+      "country": "United Kingdom",
+      "metric": "gdp",
+      "from": 1.372599483,
+      "to": 1.942205489,
       "fromPeriod": "2026-Q2",
       "toPeriod": "2026-Q3",
       "source": "OECD",
@@ -35,11 +55,15 @@
     }
   ],
   "revisions": [],
-  "unchangedCount": 345,
+  "unchangedCount": 342,
   "sourceErrors": [
     {
       "source": "custom:india-plfs",
       "error": "Direct parser: PIB: national 15+ CWS unemployment definition/reference not found; browser fallback found no independently verified observation"
+    },
+    {
+      "source": "custom:colombia-gdp",
+      "error": "Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits"
     }
   ],
   "verificationFailures": [
@@ -821,7 +845,7 @@
       "source": "Eurostat",
       "ok": true,
       "candidates": 85,
-      "applied": 1
+      "applied": 4
     },
     {
       "source": "IMF WEO",
@@ -833,7 +857,7 @@
       "source": "OECD",
       "ok": true,
       "candidates": 114,
-      "applied": 2
+      "applied": 1
     },
     {
       "source": "custom:india-rate",
@@ -951,12 +975,6 @@
     },
     {
       "source": "custom:chile-jobs",
-      "ok": true,
-      "candidates": 1,
-      "mode": "deterministic-direct"
-    },
-    {
-      "source": "custom:colombia-gdp",
       "ok": true,
       "candidates": 1,
       "mode": "deterministic-direct"
@@ -1162,7 +1180,7 @@
   "recoveredSources": [
     {
       "source": "custom:brazil-ibge",
-      "directError": "522 <none> @ https://servicodados.ibge.gov.br/api/v3/agregados/5932/periodos/-3/variaveis/6561?localidades=N1[all]&classificacao=11255[90707]",
+      "directError": "522 <none> @ https://servicodados.ibge.gov.br/api/v3/agregados/6381/periodos/-3/variaveis/4099?localidades=N1[all]",
       "mode": "browser-with-official-page-verification"
     },
     {
@@ -1176,6 +1194,6 @@
       "mode": "confirmed-standard-official-source"
     }
   ],
-  "browserCalls": 6,
+  "browserCalls": 7,
   "runStatus": "partial"
 }

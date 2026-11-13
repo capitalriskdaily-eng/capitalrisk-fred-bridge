@@ -2,12 +2,12 @@
   "status": "ok",
   "dataset": "CapitalRisk Global Snapshot",
   "version": 1,
-  "lastCheckedAt": "2026-11-06T14:37:03.248Z",
-  "lastChangeAt": "2026-11-06T14:37:03.248Z",
+  "lastCheckedAt": "2026-11-13T14:55:39.345Z",
+  "lastChangeAt": "2026-11-13T14:55:39.345Z",
   "lastSuccessfulRun": "2026-10-31T18:11:15.232Z",
   "runStatus": "partial",
   "staleFieldsCount": 21,
-  "sourceErrorsCount": 1,
+  "sourceErrorsCount": 2,
   "verificationFailuresCount": 2,
   "countries": [
     {
@@ -17,7 +17,7 @@
       "rate": 3.875,
       "inflation": 3.737685,
       "gdp": 2.065739238,
-      "unemployment": 4.2,
+      "unemployment": 4.1,
       "debt": 126.8,
       "meta": {
         "rate": {
@@ -66,17 +66,17 @@
           }
         },
         "unemployment": {
-          "period": "2026-09",
-          "institution": "Eurostat",
+          "period": "2026-10",
+          "institution": "OECD",
           "status": "OFFICIAL ACTUAL",
           "notes": "Seasonally adjusted",
-          "verified": "2026-10-30",
+          "verified": "2026-11-10",
           "definition": "Latest national unemployment rate",
-          "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?format=JSON&lang=EN&s_adj=SA&age=TOTAL&sex=T&unit=PC_ACT&lastTimePeriod=3",
+          "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_LFS@DF_IALFS_UNE_M,1.0/USA+EURO+GBR+JPN+CHN+CAN+AUS+CHE+NZL+NOR+SWE+DNK+BRA+IND+KOR+MEX+RUS+ZAF+TUR+SAU+IDN+ARG+CHL+COL+DEU+FRA+ITA+ESP+NLD+BEL+AUT+PRT+FIN+GRC+IRL+SVK+SVN+LUX+EST+LVA+LTU+HRV+CYP+MLT+BGR+POL+CZE..._Z.Y._T.Y_GE15..M?startPeriod=2025-01&dimensionAtObservation=AllDimensions",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-30T13:28:18.849Z",
+            "checkedAt": "2026-11-10T18:10:25.800Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -190,7 +190,7 @@
       "region": "Europe",
       "rate": 3.75,
       "inflation": 3.6,
-      "gdp": 1.372599483,
+      "gdp": 1.942205489,
       "unemployment": 4.7,
       "debt": 102,
       "meta": {
@@ -225,17 +225,17 @@
           }
         },
         "gdp": {
-          "period": "2026-Q2",
+          "period": "2026-Q3",
           "institution": "OECD",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-09-30",
+          "verified": "2026-11-13",
           "definition": "Latest real GDP growth, year over year",
           "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_OECD,1.1/Q..USA+EURO+GBR+JPN+CHN+CAN+AUS+CHE+NZL+NOR+SWE+DNK+BRA+IND+KOR+MEX+RUS+ZAF+TUR+SAU+IDN+ARG+CHL+COL+DEU+FRA+ITA+ESP+NLD+BEL+AUT+PRT+FIN+GRC+IRL+SVK+SVN+LUX+EST+LVA+LTU+HRV+CYP+MLT+BGR+POL+CZE...B1GQ......GY.?startPeriod=2025-Q1&dimensionAtObservation=AllDimensions",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-30T18:10:25.763Z",
+            "checkedAt": "2026-11-13T14:52:40.880Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -363,7 +363,7 @@
       "flag": "🇨🇳",
       "region": "Asia-Pacific",
       "rate": 3,
-      "inflation": 0.9,
+      "inflation": 0.7,
       "gdp": 4.5,
       "unemployment": 5.2,
       "debt": 104.4,
@@ -384,17 +384,17 @@
           }
         },
         "inflation": {
-          "period": "2026-09",
+          "period": "2026-10",
           "institution": "OECD",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-10-17",
+          "verified": "2026-11-10",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL,1.0/USA+EURO+GBR+JPN+CHN+CAN+AUS+CHE+NZL+NOR+SWE+DNK+BRA+IND+KOR+MEX+RUS+ZAF+TUR+SAU+IDN+ARG+CHL+COL+DEU+FRA+ITA+ESP+NLD+BEL+AUT+PRT+FIN+GRC+IRL+SVK+SVN+LUX+EST+LVA+LTU+HRV+CYP+MLT+BGR+POL+CZE.M.N.CPI.PA._T.N.GY?startPeriod=2025-01&dimensionAtObservation=AllDimensions",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-17T18:10:56.795Z",
+            "checkedAt": "2026-11-10T18:10:24.861Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -452,7 +452,7 @@
       "rate": 2.5,
       "inflation": 3.092783,
       "gdp": 0.954838473,
-      "unemployment": 6.5,
+      "unemployment": 6.7,
       "debt": 115.6,
       "meta": {
         "rate": {
@@ -501,17 +501,17 @@
           }
         },
         "unemployment": {
-          "period": "2026-09",
+          "period": "2026-10",
           "institution": "OECD",
           "status": "OFFICIAL ACTUAL",
           "notes": "Preliminary estimate",
-          "verified": "2026-10-17",
+          "verified": "2026-11-10",
           "definition": "Latest national unemployment rate",
           "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_LFS@DF_IALFS_UNE_M,1.0/USA+EURO+GBR+JPN+CHN+CAN+AUS+CHE+NZL+NOR+SWE+DNK+BRA+IND+KOR+MEX+RUS+ZAF+TUR+SAU+IDN+ARG+CHL+COL+DEU+FRA+ITA+ESP+NLD+BEL+AUT+PRT+FIN+GRC+IRL+SVK+SVN+LUX+EST+LVA+LTU+HRV+CYP+MLT+BGR+POL+CZE..._Z.Y._T.Y_GE15..M?startPeriod=2025-01&dimensionAtObservation=AllDimensions",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-17T18:10:57.673Z",
+            "checkedAt": "2026-11-10T18:10:25.800Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -543,17 +543,17 @@
       "debt": 52.6,
       "meta": {
         "rate": {
-          "period": "2026-09",
+          "period": "2026-10",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-10-15",
+          "verified": "2026-11-12",
           "definition": "Current central-bank policy rate",
           "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-15T18:10:20.264Z",
+            "checkedAt": "2026-11-12T18:10:20.120Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1233,38 +1233,38 @@
       "flag": "🇰🇷",
       "region": "Asia-Pacific",
       "rate": 3,
-      "inflation": 2.878865,
+      "inflation": 2.818941,
       "gdp": 3.4,
       "unemployment": 2.6,
       "debt": 47.3,
       "meta": {
         "rate": {
-          "period": "2026-09",
+          "period": "2026-10",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-10-15",
+          "verified": "2026-11-12",
           "definition": "Current central-bank policy rate",
           "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-15T18:10:20.264Z",
+            "checkedAt": "2026-11-12T18:10:20.120Z",
             "allowSamePeriodRevision": true
           }
         },
         "inflation": {
-          "period": "2026-09",
+          "period": "2026-10",
           "institution": "OECD",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-10-08",
+          "verified": "2026-11-10",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL,1.0/USA+EURO+GBR+JPN+CHN+CAN+AUS+CHE+NZL+NOR+SWE+DNK+BRA+IND+KOR+MEX+RUS+ZAF+TUR+SAU+IDN+ARG+CHL+COL+DEU+FRA+ITA+ESP+NLD+BEL+AUT+PRT+FIN+GRC+IRL+SVK+SVN+LUX+EST+LVA+LTU+HRV+CYP+MLT+BGR+POL+CZE.M.N.CPI.PA._T.N.GY?startPeriod=2025-01&dimensionAtObservation=AllDimensions",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-08T18:10:20.694Z",
+            "checkedAt": "2026-11-10T18:10:24.861Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -1496,7 +1496,7 @@
       "rate": 7.25,
       "inflation": 4.545433,
       "gdp": 0.854857248,
-      "unemployment": 33.6,
+      "unemployment": 33.7,
       "debt": 78,
       "meta": {
         "rate": {
@@ -1545,13 +1545,19 @@
           }
         },
         "unemployment": {
-          "period": "2026-Q2",
+          "period": "2026-Q3",
           "institution": "Statistics South Africa",
           "status": "OFFICIAL ACTUAL",
-          "notes": "Quarterly Labour Force Survey",
-          "verified": "2026-08-27",
+          "notes": "Quarterly Labour Force Survey, national official unemployment rate; official PDF fetched by the existing GitHub Stats SA bridge",
+          "verified": "2026-11-11",
           "definition": "Latest national unemployment rate",
-          "sourceUrl": "https://www.statssa.gov.za/?p=19804"
+          "sourceUrl": "https://www.statssa.gov.za/publications/P0211/P02113rdQuarter2026.pdf",
+          "verification": {
+            "verified": true,
+            "mode": "official-bridge",
+            "checkedAt": "2026-11-11T18:12:29.146Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "debt": {
           "period": "2026 WEO estimate",
@@ -1749,38 +1755,38 @@
       "flag": "🇮🇩",
       "region": "Asia-Pacific",
       "rate": 5.75,
-      "inflation": 3.28,
+      "inflation": 3.23,
       "gdp": 5.552050018,
       "unemployment": 4.7,
       "debt": 41.7,
       "meta": {
         "rate": {
-          "period": "2026-09",
+          "period": "2026-10",
           "institution": "Bank for International Settlements",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-10-08",
+          "verified": "2026-11-12",
           "definition": "Current central-bank policy rate",
           "sourceUrl": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US+XM+GB+JP+CN+CA+AU+CH+NZ+NO+SE+DK+BR+IN+KR+MX+RU+ZA+TR+SA+ID+CL+CO+DE+FR+IT+ES+NL+BE+AT+PT+FI+GR+IE+SK+SI+LU+EE+LV+LT+HR+CY+MT+BG+PL+CZ?lastNObservations=1",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-08T18:10:04.496Z",
+            "checkedAt": "2026-11-12T18:10:20.120Z",
             "allowSamePeriodRevision": true
           }
         },
         "inflation": {
-          "period": "2026-09",
+          "period": "2026-10",
           "institution": "OECD",
           "status": "OFFICIAL ACTUAL",
           "notes": null,
-          "verified": "2026-10-17",
+          "verified": "2026-11-10",
           "definition": "Latest headline consumer-price inflation, year over year",
           "sourceUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL,1.0/USA+EURO+GBR+JPN+CHN+CAN+AUS+CHE+NZL+NOR+SWE+DNK+BRA+IND+KOR+MEX+RUS+ZAF+TUR+SAU+IDN+ARG+CHL+COL+DEU+FRA+ITA+ESP+NLD+BEL+AUT+PRT+FIN+GRC+IRL+SVK+SVN+LUX+EST+LVA+LTU+HRV+CYP+MLT+BGR+POL+CZE.M.N.CPI.PA._T.N.GY?startPeriod=2025-01&dimensionAtObservation=AllDimensions",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-17T18:10:56.795Z",
+            "checkedAt": "2026-11-10T18:10:24.861Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -2971,7 +2977,7 @@
       "region": "Eurozone",
       "rate": 2.25,
       "inflation": 2.9,
-      "gdp": 0.9,
+      "gdp": 0.5,
       "unemployment": 5.7,
       "debt": 62.2,
       "meta": {
@@ -3000,17 +3006,17 @@
           }
         },
         "gdp": {
-          "period": "2026-Q2",
+          "period": "2026-Q3",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "Flash estimate",
-          "verified": "2026-09-04",
+          "verified": "2026-11-13",
           "definition": "Latest real GDP growth, year over year",
-          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?format=JSON&lang=EN&unit=CLV_PCH_SM&na_item=B1GQ&s_adj=SCA&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-04T11:42:18.231Z",
+            "checkedAt": "2026-11-13T14:52:34.504Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3294,7 +3300,7 @@
       "flag": "🇱🇻",
       "region": "Eurozone",
       "rate": 2.25,
-      "inflation": 3,
+      "inflation": 3.1,
       "gdp": 3.5,
       "unemployment": 7.3,
       "debt": 47,
@@ -3310,16 +3316,16 @@
         },
         "inflation": {
           "period": "2026-10",
-          "institution": "Eurostat",
+          "institution": "Central Statistical Bureau of Latvia",
           "status": "OFFICIAL ACTUAL",
-          "notes": "HICP all-items, year on year",
-          "verified": "2026-11-04",
+          "notes": "Official national CPI, all goods and services, year on year",
+          "verified": "2026-11-10",
           "definition": "Latest headline consumer-price inflation, year over year",
-          "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON&lang=EN&unit=RCH_A&coicop18=TOTAL&lastTimePeriod=3",
+          "sourceUrl": "https://api.stat.gov.lv/api/v2/tables/PCI021M/data?lang=en&valueCodes%5BECOICOP_V2%5D=0&valueCodes%5BContentsCode%5D=PCI021m6&valueCodes%5BTIME%5D=2026M10&outputFormat=json-stat2",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-11-04T18:10:25.329Z",
+            "checkedAt": "2026-11-10T18:10:32.359Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3538,7 +3544,7 @@
       "region": "Eurozone",
       "rate": 2.25,
       "inflation": 5.4,
-      "gdp": 3.3,
+      "gdp": 3.1,
       "unemployment": 4,
       "debt": 51.4,
       "meta": {
@@ -3567,13 +3573,19 @@
           }
         },
         "gdp": {
-          "period": "2026-Q2",
+          "period": "2026-Q3",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "Flash estimate",
-          "verified": "2026-08-27",
+          "verified": "2026-11-13",
           "definition": "Latest real GDP growth, year over year",
-          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+          "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?format=JSON&lang=EN&unit=CLV_PCH_SM&na_item=B1GQ&s_adj=SCA&lastTimePeriod=3",
+          "verification": {
+            "verified": true,
+            "mode": "official-api",
+            "checkedAt": "2026-11-13T14:52:34.504Z",
+            "allowSamePeriodRevision": true
+          }
         },
         "unemployment": {
           "period": "2026-09",
@@ -3694,7 +3706,7 @@
       "region": "Eurozone",
       "rate": 2.25,
       "inflation": 6,
-      "gdp": 2.8,
+      "gdp": 2.5,
       "unemployment": 3.4,
       "debt": 32.9,
       "meta": {
@@ -3723,17 +3735,17 @@
           }
         },
         "gdp": {
-          "period": "2026-Q2",
+          "period": "2026-Q3",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "Flash estimate",
-          "verified": "2026-09-10",
+          "verified": "2026-11-13",
           "definition": "Latest real GDP growth, year over year",
-          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?format=JSON&lang=EN&unit=CLV_PCH_SM&na_item=B1GQ&s_adj=SCA&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-09-10T17:22:21.682Z",
+            "checkedAt": "2026-11-13T14:52:34.504Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3775,7 +3787,7 @@
       "region": "Europe",
       "rate": 3.75,
       "inflation": 4,
-      "gdp": 4,
+      "gdp": 3.6,
       "unemployment": 3.4,
       "debt": 66.6,
       "meta": {
@@ -3810,17 +3822,17 @@
           }
         },
         "gdp": {
-          "period": "2026-Q2",
+          "period": "2026-Q3",
           "institution": "Eurostat",
           "status": "OFFICIAL ACTUAL",
           "notes": "Flash estimate",
-          "verified": "2026-10-21",
+          "verified": "2026-11-13",
           "definition": "Latest real GDP growth, year over year",
           "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?format=JSON&lang=EN&unit=CLV_PCH_SM&na_item=B1GQ&s_adj=SCA&lastTimePeriod=3",
           "verification": {
             "verified": true,
             "mode": "official-api",
-            "checkedAt": "2026-10-21T18:10:25.019Z",
+            "checkedAt": "2026-11-13T14:52:34.504Z",
             "allowSamePeriodRevision": true
           }
         },
@@ -3944,7 +3956,7 @@
       }
     }
   ],
-  "publishedAt": "2026-11-06T14:37:04.079Z",
+  "publishedAt": "2026-11-13T14:55:40.087Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
-  "refreshFinished": "2026-11-06T14:37:03.248Z"
+  "refreshFinished": "2026-11-13T14:55:39.345Z"
 }
