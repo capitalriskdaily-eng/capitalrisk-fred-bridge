@@ -1,69 +1,69 @@
 {
-  "publishedAt": "2026-11-13T14:55:40.087Z",
-  "refreshFinished": "2026-11-13T14:55:39.345Z",
+  "publishedAt": "2026-11-20T15:46:10.180Z",
+  "refreshFinished": "2026-11-20T15:46:09.434Z",
   "refreshStatus": "PARTIAL — last verified values retained where a source failed",
   "updated": [
     {
-      "country": "Slovakia",
-      "metric": "gdp",
-      "from": 0.9,
-      "to": 0.5,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Cyprus",
-      "metric": "gdp",
-      "from": 3.3,
-      "to": 3.1,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Bulgaria",
-      "metric": "gdp",
-      "from": 2.8,
-      "to": 2.5,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
-      "source": "Eurostat",
-      "verification": "official-api"
-    },
-    {
-      "country": "Poland",
-      "metric": "gdp",
+      "country": "Netherlands",
+      "metric": "unemployment",
       "from": 4,
-      "to": 3.6,
-      "fromPeriod": "2026-Q2",
-      "toPeriod": "2026-Q3",
+      "to": 4,
+      "fromPeriod": "2026-09",
+      "toPeriod": "2026-10",
       "source": "Eurostat",
       "verification": "official-api"
     },
     {
-      "country": "United Kingdom",
+      "country": "Colombia",
+      "metric": "inflation",
+      "from": 6.289791,
+      "to": 6.302132,
+      "fromPeriod": "2026-09",
+      "toPeriod": "2026-10",
+      "source": "OECD",
+      "verification": "official-api"
+    },
+    {
+      "country": "South Korea",
+      "metric": "unemployment",
+      "from": 2.6,
+      "to": 2.5,
+      "fromPeriod": "2026-09",
+      "toPeriod": "2026-10",
+      "source": "OECD",
+      "verification": "official-api"
+    },
+    {
+      "country": "Chile",
       "metric": "gdp",
-      "from": 1.372599483,
-      "to": 1.942205489,
+      "from": -0.327867472,
+      "to": -2.147977358,
       "fromPeriod": "2026-Q2",
       "toPeriod": "2026-Q3",
       "source": "OECD",
       "verification": "official-api"
+    },
+    {
+      "country": "Japan",
+      "metric": "inflation",
+      "from": 2.1,
+      "to": 2.3,
+      "fromPeriod": "2026-09",
+      "toPeriod": "2026-10",
+      "source": "Statistics Bureau of Japan",
+      "verification": "deterministic-direct"
     }
   ],
   "revisions": [],
-  "unchangedCount": 342,
+  "unchangedCount": 294,
   "sourceErrors": [
+    {
+      "source": "IMF WEO",
+      "error": "503 Service Unavailable @ https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH?periods=2026"
+    },
     {
       "source": "custom:india-plfs",
       "error": "Direct parser: PIB: national 15+ CWS unemployment definition/reference not found; browser fallback found no independently verified observation"
-    },
-    {
-      "source": "custom:colombia-gdp",
-      "error": "Too many subrequests by single Worker invocation. To configure this limit, refer to https://developers.cloudflare.com/workers/wrangler/configuration/#limits"
     }
   ],
   "verificationFailures": [
@@ -72,8 +72,8 @@
       "country": "India",
       "metric": "unemployment",
       "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 5,
-      "period": "2026-09",
+      "value": 4.9,
+      "period": "2026-10",
       "pageHas": false,
       "evidenceHas": false
     },
@@ -82,739 +82,19 @@
       "country": "India",
       "metric": "unemployment",
       "reason": "value-period-metric-not-bound-to-official-page-and-evidence",
-      "value": 5,
-      "period": "2026-09",
+      "value": 4.9,
+      "period": "2026-10",
       "pageHas": false,
       "evidenceHas": false
     }
   ],
   "rejected": [
     {
-      "country": "United States",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Euro Area",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "United Kingdom",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Japan",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 0.7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "China",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Canada",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Australia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.9,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Switzerland",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.9,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "New Zealand",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Norway",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Sweden",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Denmark",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3.7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Brazil",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "India",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "South Korea",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3.3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Mexico",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "South Africa",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Turkey",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Saudi Arabia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": -3.3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Indonesia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5.1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Argentina",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Chile",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 0.6,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Colombia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Germany",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "France",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 0.4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Italy",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 0.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Spain",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Netherlands",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Belgium",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 0.7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Austria",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 0.6,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Portugal",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Finland",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Greece",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Ireland",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": -1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Slovakia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 0.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Slovenia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Luxembourg",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Estonia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Latvia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Lithuania",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Croatia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Cyprus",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.9,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Malta",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Bulgaria",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.6,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Poland",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3.4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Czechia",
-      "metric": "gdp",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 1.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "United States",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Euro Area",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 6.3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
       "country": "United Kingdom",
       "metric": "unemployment",
       "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5.3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Japan",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "China",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5.1,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Canada",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 6.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Australia",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4.4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Switzerland",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "New Zealand",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5.4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Norway",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4.6,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Sweden",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 8.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Denmark",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Brazil",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 6.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "India",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "South Korea",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Mexico",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 2.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "South Africa",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 33.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Turkey",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 8.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Argentina",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 7.6,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Chile",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 9.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Colombia",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 9,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Germany",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "France",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 8.4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Italy",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5.6,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Spain",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 9.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Netherlands",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Belgium",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 6.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Austria",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5.7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Portugal",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5.9,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Finland",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 10.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Greece",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Ireland",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Slovakia",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 5.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Slovenia",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3.9,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Luxembourg",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 6.4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Estonia",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 6.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Latvia",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 6.7,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Lithuania",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 6.8,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Croatia",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4.5,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Cyprus",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Malta",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Bulgaria",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3.4,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Poland",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3.2,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "Czechia",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026 WEO estimate",
-      "value": 3,
-      "source": "IMF World Economic Outlook"
-    },
-    {
-      "country": "United Kingdom",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026-07",
-      "value": "4.7",
+      "period": "2026-08",
+      "value": "4.6",
       "source": "OECD"
     },
     {
@@ -824,14 +104,6 @@
       "period": "2026-08",
       "value": "9.565078",
       "source": "OECD"
-    },
-    {
-      "country": "Brazil",
-      "metric": "unemployment",
-      "reason": "verification:period-type-mismatch",
-      "period": "2026-Q2",
-      "value": 5.4,
-      "source": "IBGE"
     }
   ],
   "sources": [
@@ -845,19 +117,13 @@
       "source": "Eurostat",
       "ok": true,
       "candidates": 85,
-      "applied": 4
-    },
-    {
-      "source": "IMF WEO",
-      "ok": true,
-      "candidates": 140,
-      "applied": 0
+      "applied": 1
     },
     {
       "source": "OECD",
       "ok": true,
       "candidates": 114,
-      "applied": 1
+      "applied": 3
     },
     {
       "source": "custom:india-rate",
@@ -975,6 +241,12 @@
     },
     {
       "source": "custom:chile-jobs",
+      "ok": true,
+      "candidates": 1,
+      "mode": "deterministic-direct"
+    },
+    {
+      "source": "custom:colombia-gdp",
       "ok": true,
       "candidates": 1,
       "mode": "deterministic-direct"
@@ -1179,11 +451,6 @@
   ],
   "recoveredSources": [
     {
-      "source": "custom:brazil-ibge",
-      "directError": "522 <none> @ https://servicodados.ibge.gov.br/api/v3/agregados/6381/periodos/-3/variaveis/4099?localidades=N1[all]",
-      "mode": "browser-with-official-page-verification"
-    },
-    {
       "source": "custom:mexico-inegi",
       "directError": "Mexico INEGI: unemployment observation not found",
       "mode": "confirmed-standard-official-source"
@@ -1194,6 +461,6 @@
       "mode": "confirmed-standard-official-source"
     }
   ],
-  "browserCalls": 7,
+  "browserCalls": 5,
   "runStatus": "partial"
 }
