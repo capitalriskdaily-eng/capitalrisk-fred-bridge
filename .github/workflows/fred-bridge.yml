@@ -1,10 +1,9 @@
 name: CapitalRisk FRED Bridge
 
+# TEMPORARY PAUSE (2026-11-22): automatic triggers paused; manual dispatch retained.
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "15 14 * * *"
 
 permissions:
   contents: write
