@@ -1,11 +1,9 @@
 name: CapitalRisk Global Snapshot Friday
 
+# TEMPORARY PAUSE (2026-11-22): automatic triggers paused; manual dispatch retained.
 on:
-  schedule:
-    # Friday, 06:37 UTC. Deliberately away from top-of-hour congestion and
-    # from the afternoon CapitalRisk jobs. (~09:37 Latvia summer / 08:37 winter.)
-    - cron: '37 6 * * 5'
   workflow_dispatch:
+
 
 permissions:
   contents: write
